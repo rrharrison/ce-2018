@@ -15,9 +15,9 @@ accessible-icon:
   search:
     terms:
       - accessibility
-      - wheelchair
       - handicap
       - person
+      - wheelchair
       - wheelchair-alt
   styles:
     - brands
@@ -35,6 +35,7 @@ address-book:
   changes:
     - '4.7'
     - 5.0.0
+    - 5.0.3
   label: Address Book
   search:
     terms: []
@@ -47,6 +48,7 @@ address-card:
   changes:
     - '4.7'
     - 5.0.0
+    - 5.0.3
   label: Address Card
   search:
     terms: []
@@ -84,9 +86,6 @@ adversal:
   label: Adversal
   search:
     terms: []
-  sponsored:
-    label: Adversal
-    url: 'https://www.adversal.com'
   styles:
     - brands
   unicode: f36a
@@ -96,9 +95,6 @@ affiliatetheme:
   label: affiliatetheme
   search:
     terms: []
-  sponsored:
-    label: affiliatetheme
-    url: 'https://affiliatetheme.io/en'
   styles:
     - brands
   unicode: f36b
@@ -108,11 +104,11 @@ alarm-clock:
   label: Alarm Clock
   search:
     terms:
-      - watch
-      - timer
-      - late
-      - timestamp
       - date
+      - late
+      - timer
+      - timestamp
+      - watch
   styles:
     - solid
     - regular
@@ -124,9 +120,6 @@ algolia:
   label: Algolia
   search:
     terms: []
-  sponsored:
-    label: Algolia
-    url: 'http://www.algolia.com'
   styles:
     - brands
   unicode: f36c
@@ -183,6 +176,22 @@ align-right:
     - regular
     - light
   unicode: f038
+allergies:
+  changes:
+    - 5.0.7
+  label: Allergies
+  search:
+    terms:
+      - freckles
+      - hand
+      - intolerances
+      - pox
+      - spots
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f461
 amazon:
   changes:
     - '4.4'
@@ -193,16 +202,27 @@ amazon:
   styles:
     - brands
   unicode: f270
+amazon-pay:
+  changes:
+    - 5.0.2
+  label: Amazon Pay
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f42c
 ambulance:
   changes:
     - '3'
     - 5.0.0
+    - 5.0.7
   label: ambulance
   search:
     terms:
-      - vehicle
-      - support
       - help
+      - machine
+      - support
+      - vehicle
   styles:
     - solid
     - regular
@@ -226,9 +246,6 @@ amilia:
   label: Amilia
   search:
     terms: []
-  sponsored:
-    label: Amilia
-    url: 'http://www.amilia.com'
   styles:
     - brands
   unicode: f36d
@@ -286,11 +303,11 @@ angle-double-left:
   label: Angle Double Left
   search:
     terms:
-      - laquo
-      - quote
-      - previous
-      - back
       - arrows
+      - back
+      - laquo
+      - previous
+      - quote
   styles:
     - solid
     - regular
@@ -303,11 +320,11 @@ angle-double-right:
   label: Angle Double Right
   search:
     terms:
-      - raquo
-      - quote
-      - next
-      - forward
       - arrows
+      - forward
+      - next
+      - quote
+      - raquo
   styles:
     - solid
     - regular
@@ -346,9 +363,9 @@ angle-left:
   label: angle-left
   search:
     terms:
-      - previous
-      - back
       - arrow
+      - back
+      - previous
   styles:
     - solid
     - regular
@@ -361,9 +378,9 @@ angle-right:
   label: angle-right
   search:
     terms:
-      - next
-      - forward
       - arrow
+      - forward
+      - next
   styles:
     - solid
     - regular
@@ -382,15 +399,23 @@ angle-up:
     - regular
     - light
   unicode: f106
+angry:
+  changes:
+    - 5.1.0
+  label: Angry Face
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f556
 angrycreative:
   changes:
     - 5.0.0
   label: Angry Creative
   search:
     terms: []
-  sponsored:
-    label: Angry Creative
-    url: 'https://angrycreative.se'
   styles:
     - brands
   unicode: f36e
@@ -427,9 +452,6 @@ apper:
   label: Apper Systems AB
   search:
     terms: []
-  sponsored:
-    label: Apper Systems AB
-    url: 'http://www.apper.com/'
   styles:
     - brands
   unicode: f371
@@ -437,11 +459,13 @@ apple:
   changes:
     - '3.2'
     - 5.0.0
+    - 5.0.7
   label: Apple
   search:
     terms:
-      - osx
       - food
+      - fruit
+      - osx
   styles:
     - brands
   unicode: f179
@@ -458,24 +482,40 @@ archive:
   changes:
     - '3.2'
     - 5.0.0
+    - 5.0.9
   label: Archive
   search:
     terms:
       - box
+      - package
       - storage
   styles:
     - solid
     - regular
     - light
   unicode: f187
+archway:
+  changes:
+    - 5.1.0
+  label: Archway
+  search:
+    terms:
+      - monument
+      - road
+      - street
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f557
 arrow-alt-circle-down:
   changes:
     - 5.0.0
   label: Alternate Arrow Circle Down
   search:
     terms:
-      - download
       - arrow-circle-o-down
+      - download
   styles:
     - solid
     - regular
@@ -487,9 +527,9 @@ arrow-alt-circle-left:
   label: Alternate Arrow Circle Left
   search:
     terms:
-      - previous
-      - back
       - arrow-circle-o-left
+      - back
+      - previous
   styles:
     - solid
     - regular
@@ -501,9 +541,9 @@ arrow-alt-circle-right:
   label: Alternate Arrow Circle Right
   search:
     terms:
-      - next
-      - forward
       - arrow-circle-o-right
+      - forward
+      - next
   styles:
     - solid
     - regular
@@ -550,8 +590,8 @@ arrow-alt-from-left:
   label: Alternate Arrow from Left
   search:
     terms:
-      - previous
       - back
+      - previous
   styles:
     - solid
     - regular
@@ -563,8 +603,8 @@ arrow-alt-from-right:
   label: Alternate Arrow from Right
   search:
     terms:
-      - next
       - forward
+      - next
   styles:
     - solid
     - regular
@@ -587,8 +627,8 @@ arrow-alt-left:
   label: Alternate Arrow Left
   search:
     terms:
-      - previous
       - back
+      - previous
   styles:
     - solid
     - regular
@@ -600,8 +640,8 @@ arrow-alt-right:
   label: Alternate Arrow Right
   search:
     terms:
-      - next
       - forward
+      - next
   styles:
     - solid
     - regular
@@ -624,8 +664,8 @@ arrow-alt-square-left:
   label: Alternate Arrow Square Left
   search:
     terms:
-      - previous
       - back
+      - previous
   styles:
     - solid
     - regular
@@ -637,8 +677,8 @@ arrow-alt-square-right:
   label: Alternate Arrow Square Right
   search:
     terms:
-      - next
       - forward
+      - next
   styles:
     - solid
     - regular
@@ -673,8 +713,8 @@ arrow-alt-to-left:
   label: Alternate Arrow to Left
   search:
     terms:
-      - previous
       - back
+      - previous
   styles:
     - solid
     - regular
@@ -686,8 +726,8 @@ arrow-alt-to-right:
   label: Alternate Arrow to Right
   search:
     terms:
-      - next
       - forward
+      - next
   styles:
     - solid
     - regular
@@ -735,8 +775,8 @@ arrow-circle-left:
   label: Arrow Circle Left
   search:
     terms:
-      - previous
       - back
+      - previous
   styles:
     - solid
     - regular
@@ -749,8 +789,8 @@ arrow-circle-right:
   label: Arrow Circle Right
   search:
     terms:
-      - next
       - forward
+      - next
   styles:
     - solid
     - regular
@@ -799,8 +839,8 @@ arrow-from-left:
   label: Arrow from Left
   search:
     terms:
-      - previous
       - back
+      - previous
   styles:
     - solid
     - regular
@@ -812,8 +852,8 @@ arrow-from-right:
   label: Arrow from Right
   search:
     terms:
-      - next
       - forward
+      - next
   styles:
     - solid
     - regular
@@ -837,8 +877,8 @@ arrow-left:
   label: arrow-left
   search:
     terms:
-      - previous
       - back
+      - previous
   styles:
     - solid
     - regular
@@ -851,8 +891,8 @@ arrow-right:
   label: arrow-right
   search:
     terms:
-      - next
       - forward
+      - next
   styles:
     - solid
     - regular
@@ -875,8 +915,8 @@ arrow-square-left:
   label: Arrow Square Left
   search:
     terms:
-      - previous
       - back
+      - previous
   styles:
     - solid
     - regular
@@ -888,8 +928,8 @@ arrow-square-right:
   label: Arrow Square Right
   search:
     terms:
-      - next
       - forward
+      - next
   styles:
     - solid
     - regular
@@ -924,8 +964,8 @@ arrow-to-left:
   label: Arrow to Left
   search:
     terms:
-      - previous
       - back
+      - previous
   styles:
     - solid
     - regular
@@ -937,8 +977,8 @@ arrow-to-right:
   label: Arrow to Right
   search:
     terms:
-      - next
       - forward
+      - next
   styles:
     - solid
     - regular
@@ -975,6 +1015,7 @@ arrows:
   search:
     terms:
       - move
+      - position
       - reorder
       - resize
   styles:
@@ -989,15 +1030,16 @@ arrows-alt:
   label: Alternate Arrows
   search:
     terms:
-      - expand
-      - enlarge
-      - fullscreen
-      - bigger
-      - move
-      - reorder
-      - resize
       - arrow
       - arrows
+      - bigger
+      - enlarge
+      - expand
+      - fullscreen
+      - move
+      - position
+      - reorder
+      - resize
   styles:
     - solid
     - regular
@@ -1009,8 +1051,8 @@ arrows-alt-h:
   label: Alternate Arrows Horizontal
   search:
     terms:
-      - resize
       - arrows-h
+      - resize
   styles:
     - solid
     - regular
@@ -1022,8 +1064,8 @@ arrows-alt-v:
   label: Alternate Arrows Vertical
   search:
     terms:
-      - resize
       - arrows-v
+      - resize
   styles:
     - solid
     - regular
@@ -1086,9 +1128,6 @@ asymmetrik:
   label: 'Asymmetrik, Ltd.'
   search:
     terms: []
-  sponsored:
-    label: 'Asymmetrik, Ltd.'
-    url: 'http://asymmetrik.com/'
   styles:
     - brands
   unicode: f372
@@ -1099,13 +1138,28 @@ at:
   label: At
   search:
     terms:
-      - email
       - e-mail
+      - email
   styles:
     - solid
     - regular
     - light
   unicode: f1fa
+atlas:
+  changes:
+    - 5.1.0
+  label: Atlas
+  search:
+    terms:
+      - book
+      - geography
+      - map
+      - wayfinding
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f558
 audible:
   changes:
     - 5.0.0
@@ -1142,9 +1196,6 @@ avianex:
   label: avianex
   search:
     terms: []
-  sponsored:
-    label: avianex
-    url: 'https://www.avianex.de'
   styles:
     - brands
   unicode: f374
@@ -1157,15 +1208,42 @@ aviato:
   styles:
     - brands
   unicode: f421
+award:
+  changes:
+    - 5.1.0
+  label: Award
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f559
 aws:
   changes:
     - 5.0.0
+    - 5.1.0
   label: Amazon Web Services (AWS)
   search:
     terms: []
   styles:
     - brands
   unicode: f375
+backspace:
+  changes:
+    - 5.1.0
+  label: Backspace
+  search:
+    terms:
+      - command
+      - delete
+      - keyboard
+      - undo
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f55a
 backward:
   changes:
     - '1'
@@ -1173,8 +1251,8 @@ backward:
   label: backward
   search:
     terms:
-      - rewind
       - previous
+      - rewind
   styles:
     - solid
     - regular
@@ -1196,7 +1274,20 @@ badge-check:
     - 5.0.0
   label: Check Badge
   search:
-    terms: []
+    terms:
+      - accept
+      - achievement
+      - agree
+      - award
+      - confirm
+      - correct
+      - done
+      - ok
+      - security
+      - select
+      - success
+      - winner
+      - 'yes'
   styles:
     - solid
     - regular
@@ -1206,14 +1297,52 @@ balance-scale:
   changes:
     - '4.4'
     - 5.0.0
+    - 5.0.13
   label: Balance Scale
   search:
-    terms: []
+    terms:
+      - balanced
+      - justice
+      - legal
+      - measure
+      - weight
   styles:
     - solid
     - regular
     - light
   unicode: f24e
+balance-scale-left:
+  changes:
+    - 5.0.13
+  label: Balance Scale (Left-Weighted)
+  search:
+    terms:
+      - justice
+      - legal
+      - measure
+      - unbalanced
+      - weight
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f515
+balance-scale-right:
+  changes:
+    - 5.0.13
+  label: Balance Scale (Right-Weighted)
+  search:
+    terms:
+      - justice
+      - legal
+      - measure
+      - unbalanced
+      - weight
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f516
 ban:
   changes:
     - '1'
@@ -1221,19 +1350,35 @@ ban:
   label: ban
   search:
     terms:
-      - delete
-      - remove
-      - trash
-      - hide
-      - block
-      - stop
       - abort
+      - ban
+      - block
       - cancel
+      - delete
+      - hide
+      - prohibit
+      - remove
+      - stop
+      - trash
   styles:
     - solid
     - regular
     - light
   unicode: f05e
+band-aid:
+  changes:
+    - 5.0.7
+  label: Band-Aid
+  search:
+    terms:
+      - bandage
+      - boo boo
+      - ouch
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f462
 bandcamp:
   changes:
     - '4.7'
@@ -1257,6 +1402,39 @@ barcode:
     - regular
     - light
   unicode: f02a
+barcode-alt:
+  changes:
+    - 5.0.7
+  label: Alternate Barcode
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f463
+barcode-read:
+  changes:
+    - 5.0.7
+  label: Barcode Read
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f464
+barcode-scan:
+  changes:
+    - 5.0.7
+  label: Barcode Scan
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f465
 bars:
   changes:
     - '2'
@@ -1264,22 +1442,67 @@ bars:
   label: Bars
   search:
     terms:
-      - menu
+      - checklist
       - drag
+      - hamburger
+      - list
+      - menu
+      - nav
+      - navigation
+      - ol
       - reorder
       - settings
-      - list
-      - ul
-      - ol
-      - checklist
       - todo
-      - list
-      - hamburger
+      - ul
   styles:
     - solid
     - regular
     - light
   unicode: f0c9
+baseball:
+  changes:
+    - 5.0.5
+  label: Baseball
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f432
+baseball-ball:
+  changes:
+    - 5.0.5
+  label: Baseball Ball
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f433
+basketball-ball:
+  changes:
+    - 5.0.5
+  label: Basketball Ball
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f434
+basketball-hoop:
+  changes:
+    - 5.0.5
+  label: Basketball Hoop
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f435
 bath:
   changes:
     - '4.7'
@@ -1297,7 +1520,9 @@ battery-bolt:
     - 5.0.0
   label: Battery Bolt
   search:
-    terms: []
+    terms:
+      - power
+      - status
   styles:
     - solid
     - regular
@@ -1311,6 +1536,7 @@ battery-empty:
   search:
     terms:
       - power
+      - status
   styles:
     - solid
     - regular
@@ -1324,6 +1550,7 @@ battery-full:
   search:
     terms:
       - power
+      - status
   styles:
     - solid
     - regular
@@ -1337,6 +1564,7 @@ battery-half:
   search:
     terms:
       - power
+      - status
   styles:
     - solid
     - regular
@@ -1350,6 +1578,7 @@ battery-quarter:
   search:
     terms:
       - power
+      - status
   styles:
     - solid
     - regular
@@ -1360,7 +1589,9 @@ battery-slash:
     - 5.0.0
   label: Battery Slash
   search:
-    terms: []
+    terms:
+      - power
+      - status
   styles:
     - solid
     - regular
@@ -1374,6 +1605,7 @@ battery-three-quarters:
   search:
     terms:
       - power
+      - status
   styles:
     - solid
     - regular
@@ -1383,6 +1615,7 @@ bed:
   changes:
     - '4.3'
     - 5.0.0
+    - 5.1.0
   label: Bed
   search:
     terms:
@@ -1400,11 +1633,11 @@ beer:
   search:
     terms:
       - alcohol
-      - stein
-      - drink
-      - mug
       - bar
+      - drink
       - liquor
+      - mug
+      - stein
   styles:
     - solid
     - regular
@@ -1424,6 +1657,7 @@ behance-square:
   changes:
     - '4.1'
     - 5.0.0
+    - 5.0.3
   label: Behance Square
   search:
     terms: []
@@ -1438,8 +1672,8 @@ bell:
   search:
     terms:
       - alert
-      - reminder
       - notification
+      - reminder
   styles:
     - solid
     - regular
@@ -1457,6 +1691,22 @@ bell-slash:
     - regular
     - light
   unicode: f1f6
+bezier-curve:
+  changes:
+    - 5.1.0
+  label: Bezier Curve
+  search:
+    terms:
+      - curves
+      - illustrator
+      - lines
+      - path
+      - vector
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f55b
 bicycle:
   changes:
     - '4.2'
@@ -1464,8 +1714,10 @@ bicycle:
   label: Bicycle
   search:
     terms:
-      - vehicle
       - bike
+      - gears
+      - transportation
+      - vehicle
   styles:
     - solid
     - regular
@@ -1477,9 +1729,6 @@ bimobject:
   label: BIMobject
   search:
     terms: []
-  sponsored:
-    label: BIMobject
-    url: 'http://bimobject.com'
   styles:
     - brands
   unicode: f378
@@ -1514,8 +1763,8 @@ bitbucket:
   label: Bitbucket
   search:
     terms:
-      - git
       - bitbucket-square
+      - git
   styles:
     - brands
   unicode: f171
@@ -1534,9 +1783,6 @@ bity:
   label: Bity
   search:
     terms: []
-  sponsored:
-    label: Bity
-    url: 'http://bity.com'
   styles:
     - brands
   unicode: f37a
@@ -1559,6 +1805,28 @@ blackberry:
   styles:
     - brands
   unicode: f37b
+blanket:
+  changes:
+    - 5.0.9
+  label: Blanket
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f498
+blender:
+  changes:
+    - 5.0.13
+  label: Blender
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f517
 blind:
   changes:
     - '4.6'
@@ -1628,8 +1896,10 @@ bolt:
   label: Lightning Bolt
   search:
     terms:
+      - electricity
       - lightning
       - weather
+      - zap
   styles:
     - solid
     - regular
@@ -1647,6 +1917,23 @@ bomb:
     - regular
     - light
   unicode: f1e2
+bong:
+  changes:
+    - 5.1.0
+  label: Bong
+  search:
+    terms:
+      - aparatus
+      - cannabis
+      - marijuana
+      - pipe
+      - smoke
+      - smoking
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f55c
 book:
   changes:
     - '1'
@@ -1654,13 +1941,39 @@ book:
   label: book
   search:
     terms:
-      - read
       - documentation
+      - read
   styles:
     - solid
     - regular
     - light
   unicode: f02d
+book-heart:
+  changes:
+    - 5.0.9
+  label: Book with Heart
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f499
+book-open:
+  changes:
+    - 5.0.13
+    - 5.1.0
+  label: Book Open
+  search:
+    terms:
+      - notebook
+      - open book
+      - reading
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f518
 bookmark:
   changes:
     - '1'
@@ -1674,6 +1987,181 @@ bookmark:
     - regular
     - light
   unicode: f02e
+bowling-ball:
+  changes:
+    - 5.0.5
+  label: Bowling Ball
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f436
+bowling-pins:
+  changes:
+    - 5.0.5
+  label: Bowling Pins
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f437
+box:
+  changes:
+    - 5.0.7
+  label: Box
+  search:
+    terms:
+      - package
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f466
+box-alt:
+  changes:
+    - 5.0.9
+  label: Alternate Box
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f49a
+box-check:
+  changes:
+    - 5.0.7
+  label: Box Check
+  search:
+    terms:
+      - accept
+      - ackage
+      - agree
+      - confirm
+      - correct
+      - done
+      - ok
+      - select
+      - success
+      - todo
+      - 'yes'
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f467
+box-fragile:
+  changes:
+    - 5.0.9
+  label: Box Fragile
+  search:
+    terms:
+      - package
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f49b
+box-full:
+  changes:
+    - 5.0.9
+  label: Box Full
+  search:
+    terms:
+      - package
+      - packed
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f49c
+box-heart:
+  changes:
+    - 5.0.9
+  label: Box with Heart
+  search:
+    terms:
+      - care
+      - package
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f49d
+box-open:
+  changes:
+    - 5.0.9
+  label: Box Open
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f49e
+box-up:
+  changes:
+    - 5.0.9
+  label: Box Up
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f49f
+box-usd:
+  changes:
+    - 5.0.9
+  label: Box with US Dollar
+  search:
+    terms:
+      - $
+      - dollar-sign
+      - money
+      - usd
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f4a0
+boxes:
+  changes:
+    - 5.0.7
+  label: Boxes
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f468
+boxes-alt:
+  changes:
+    - 5.0.9
+  label: Alternate Boxes
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f4a1
+boxing-glove:
+  changes:
+    - 5.0.5
+  label: Boxing Glove
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f438
 braille:
   changes:
     - '4.6'
@@ -1693,27 +2181,79 @@ briefcase:
   label: Briefcase
   search:
     terms:
-      - work
-      - business
-      - office
-      - luggage
       - bag
+      - business
+      - luggage
+      - office
+      - work
   styles:
     - solid
     - regular
     - light
   unicode: f0b1
-browser:
+briefcase-medical:
   changes:
-    - 5.0.0
-  label: Browser
+    - 5.0.7
+  label: Medical Briefcase
+  search:
+    terms:
+      - health briefcase
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f469
+broadcast-tower:
+  changes:
+    - 5.0.13
+  label: Broadcast Tower
+  search:
+    terms:
+      - airwaves
+      - radio
+      - waves
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f519
+broom:
+  changes:
+    - 5.0.13
+  label: Broom
   search:
     terms: []
   styles:
     - solid
     - regular
     - light
+  unicode: f51a
+browser:
+  changes:
+    - 5.0.0
+  label: Browser
+  search:
+    terms:
+      - website
+  styles:
+    - solid
+    - regular
+    - light
   unicode: f37e
+brush:
+  changes:
+    - 5.1.0
+  label: Brush
+  search:
+    terms:
+      - bristles
+      - color
+      - painting
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f55d
 btc:
   changes:
     - '3.2'
@@ -1731,8 +2271,8 @@ bug:
   label: Bug
   search:
     terms:
-      - report
       - insect
+      - report
   styles:
     - solid
     - regular
@@ -1745,11 +2285,11 @@ building:
   label: Building
   search:
     terms:
-      - work
-      - business
       - apartment
-      - office
+      - business
       - company
+      - office
+      - work
   styles:
     - solid
     - regular
@@ -1763,10 +2303,10 @@ bullhorn:
   search:
     terms:
       - announcement
-      - share
       - broadcast
       - louder
       - megaphone
+      - share
   styles:
     - solid
     - regular
@@ -1785,15 +2325,24 @@ bullseye:
     - regular
     - light
   unicode: f140
+burn:
+  changes:
+    - 5.0.7
+  label: Burn
+  search:
+    terms:
+      - energy
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f46a
 buromobelexperte:
   changes:
     - 5.0.0
   label: Büromöbel-Experte GmbH & Co. KG.
   search:
     terms: []
-  sponsored:
-    label: Büromöbel-Experte GmbH & Co. KG.
-    url: 'https://www.bueromoebel-experte.de'
   styles:
     - brands
   unicode: f37f
@@ -1801,15 +2350,34 @@ bus:
   changes:
     - '4.2'
     - 5.0.0
+    - 5.1.0
   label: Bus
   search:
     terms:
+      - machine
+      - public transportation
+      - transportation
       - vehicle
   styles:
     - solid
     - regular
     - light
   unicode: f207
+bus-alt:
+  changes:
+    - 5.1.0
+  label: Bus Alt
+  search:
+    terms:
+      - machine
+      - public transportation
+      - transportation
+      - vehicle
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f55e
 buysellads:
   changes:
     - '4.3'
@@ -1839,11 +2407,12 @@ calendar:
   label: Calendar
   search:
     terms:
+      - calendar-o
       - date
+      - event
+      - schedule
       - time
       - when
-      - event
-      - calendar-o
   styles:
     - solid
     - regular
@@ -1856,11 +2425,12 @@ calendar-alt:
   label: Alternate Calendar
   search:
     terms:
+      - calendar
       - date
+      - event
+      - schedule
       - time
       - when
-      - event
-      - calendar
   styles:
     - solid
     - regular
@@ -1873,7 +2443,16 @@ calendar-check:
   label: Calendar Check
   search:
     terms:
+      - accept
+      - agree
+      - appointment
+      - confirm
+      - correct
+      - done
       - ok
+      - select
+      - success
+      - todo
   styles:
     - solid
     - regular
@@ -1895,7 +2474,8 @@ calendar-exclamation:
     - 5.0.0
   label: Calendar Exclamation
   search:
-    terms: []
+    terms:
+      - important
   styles:
     - solid
     - regular
@@ -1981,6 +2561,44 @@ camera-retro:
     - regular
     - light
   unicode: f083
+cannabis:
+  changes:
+    - 5.1.0
+  label: Cannabis
+  search:
+    terms:
+      - bud
+      - chronic
+      - drugs
+      - endica
+      - endo
+      - ganja
+      - marijuana
+      - mary jane
+      - pot
+      - reefer
+      - sativa
+      - spliff
+      - weed
+      - whacky-tabacky
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f55f
+capsules:
+  changes:
+    - 5.0.7
+  label: Capsules
+  search:
+    terms:
+      - drugs
+      - medicine
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f46b
 car:
   changes:
     - '4.1'
@@ -1988,6 +2606,8 @@ car:
   label: Car
   search:
     terms:
+      - machine
+      - transportation
       - vehicle
   styles:
     - solid
@@ -2000,9 +2620,9 @@ caret-circle-down:
   label: Caret Circle Down
   search:
     terms:
-      - more
       - dropdown
       - menu
+      - more
   styles:
     - solid
     - regular
@@ -2014,8 +2634,8 @@ caret-circle-left:
   label: Caret Circle Left
   search:
     terms:
-      - previous
       - back
+      - previous
   styles:
     - solid
     - regular
@@ -2027,8 +2647,8 @@ caret-circle-right:
   label: Caret Circle Right
   search:
     terms:
-      - next
       - forward
+      - next
   styles:
     - solid
     - regular
@@ -2052,11 +2672,11 @@ caret-down:
   label: Caret Down
   search:
     terms:
-      - more
+      - arrow
       - dropdown
       - menu
+      - more
       - triangle down
-      - arrow
   styles:
     - solid
     - regular
@@ -2069,10 +2689,10 @@ caret-left:
   label: Caret Left
   search:
     terms:
-      - previous
-      - back
-      - triangle left
       - arrow
+      - back
+      - previous
+      - triangle left
   styles:
     - solid
     - regular
@@ -2085,10 +2705,10 @@ caret-right:
   label: Caret Right
   search:
     terms:
-      - next
-      - forward
-      - triangle right
       - arrow
+      - forward
+      - next
+      - triangle right
   styles:
     - solid
     - regular
@@ -2101,10 +2721,10 @@ caret-square-down:
   label: Caret Square Down
   search:
     terms:
-      - more
+      - caret-square-o-down
       - dropdown
       - menu
-      - caret-square-o-down
+      - more
   styles:
     - solid
     - regular
@@ -2117,9 +2737,9 @@ caret-square-left:
   label: Caret Square Left
   search:
     terms:
-      - previous
       - back
       - caret-square-o-left
+      - previous
   styles:
     - solid
     - regular
@@ -2132,9 +2752,9 @@ caret-square-right:
   label: Caret Square Right
   search:
     terms:
-      - next
-      - forward
       - caret-square-o-right
+      - forward
+      - next
   styles:
     - solid
     - regular
@@ -2160,8 +2780,8 @@ caret-up:
   label: Caret Up
   search:
     terms:
-      - triangle up
       - arrow
+      - triangle up
   styles:
     - solid
     - regular
@@ -2194,6 +2814,15 @@ cart-plus:
     - regular
     - light
   unicode: f217
+cc-amazon-pay:
+  changes:
+    - 5.0.2
+  label: Amazon Pay Credit Card
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f42d
 cc-amex:
   changes:
     - '4.2'
@@ -2290,9 +2919,6 @@ centercode:
   label: Centercode
   search:
     terms: []
-  sponsored:
-    label: Centercode
-    url: 'https://www.centercode.com'
   styles:
     - brands
   unicode: f380
@@ -2310,6 +2936,41 @@ certificate:
     - regular
     - light
   unicode: f0a3
+chalkboard:
+  changes:
+    - 5.0.13
+  label: Chalkboard
+  search:
+    terms:
+      - blackboard
+      - learning
+      - school
+      - teaching
+      - whiteboard
+      - writing
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f51b
+chalkboard-teacher:
+  changes:
+    - 5.0.13
+  label: Chalkboard Teacher
+  search:
+    terms:
+      - blackboard
+      - instructor
+      - learning
+      - professor
+      - school
+      - whiteboard
+      - writing
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f51c
 chart-area:
   changes:
     - '4.2'
@@ -2317,9 +2978,9 @@ chart-area:
   label: Area Chart
   search:
     terms:
-      - graph
       - analytics
       - area-chart
+      - graph
   styles:
     - solid
     - regular
@@ -2332,9 +2993,9 @@ chart-bar:
   label: Bar Chart
   search:
     terms:
-      - graph
       - analytics
       - bar-chart
+      - graph
   styles:
     - solid
     - regular
@@ -2347,8 +3008,10 @@ chart-line:
   label: Line Chart
   search:
     terms:
-      - graph
+      - activity
       - analytics
+      - dashboard
+      - graph
       - line-chart
   styles:
     - solid
@@ -2362,8 +3025,8 @@ chart-pie:
   label: Pie Chart
   search:
     terms:
-      - graph
       - analytics
+      - graph
       - pie-chart
   styles:
     - solid
@@ -2377,14 +3040,21 @@ check:
   label: Check
   search:
     terms:
-      - checkmark
-      - done
-      - todo
-      - agree
       - accept
+      - agree
+      - checkmark
       - confirm
-      - tick
+      - correct
+      - done
+      - notice
+      - notification
+      - notify
       - ok
+      - select
+      - success
+      - tick
+      - todo
+      - 'yes'
   styles:
     - solid
     - regular
@@ -2397,17 +3067,32 @@ check-circle:
   label: Check Circle
   search:
     terms:
-      - todo
-      - done
-      - agree
       - accept
+      - agree
       - confirm
+      - correct
+      - done
       - ok
+      - select
+      - success
+      - todo
+      - 'yes'
   styles:
     - solid
     - regular
     - light
   unicode: f058
+check-double:
+  changes:
+    - 5.1.0
+  label: Check Double
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f560
 check-square:
   changes:
     - '3.1'
@@ -2415,18 +3100,198 @@ check-square:
   label: Check Square
   search:
     terms:
-      - checkmark
-      - done
-      - todo
-      - agree
       - accept
+      - agree
+      - checkmark
       - confirm
+      - correct
+      - done
       - ok
+      - select
+      - success
+      - todo
+      - 'yes'
   styles:
     - solid
     - regular
     - light
   unicode: f14a
+chess:
+  changes:
+    - 5.0.5
+  label: Chess
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f439
+chess-bishop:
+  changes:
+    - 5.0.5
+  label: Chess Bishop
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f43a
+chess-bishop-alt:
+  changes:
+    - 5.0.5
+  label: Alternate Chess Bishop
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f43b
+chess-board:
+  changes:
+    - 5.0.5
+  label: Chess Board
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f43c
+chess-clock:
+  changes:
+    - 5.0.5
+  label: Chess Clock
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f43d
+chess-clock-alt:
+  changes:
+    - 5.0.5
+  label: Alternate Chess Clock
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f43e
+chess-king:
+  changes:
+    - 5.0.5
+  label: Chess King
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f43f
+chess-king-alt:
+  changes:
+    - 5.0.5
+  label: Alternate Chess King
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f440
+chess-knight:
+  changes:
+    - 5.0.5
+  label: Chess Knight
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f441
+chess-knight-alt:
+  changes:
+    - 5.0.5
+  label: Alternate Chess Knight
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f442
+chess-pawn:
+  changes:
+    - 5.0.5
+  label: Chess Pawn
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f443
+chess-pawn-alt:
+  changes:
+    - 5.0.5
+  label: Alternate Chess Pawn
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f444
+chess-queen:
+  changes:
+    - 5.0.5
+  label: Chess Queen
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f445
+chess-queen-alt:
+  changes:
+    - 5.0.5
+  label: Alternate Chess Queen
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f446
+chess-rook:
+  changes:
+    - 5.0.5
+  label: Chess Rook
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f447
+chess-rook-alt:
+  changes:
+    - 5.0.5
+  label: Alternate Chess Rook
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f448
 chevron-circle-down:
   changes:
     - '3.1'
@@ -2434,10 +3299,10 @@ chevron-circle-down:
   label: Chevron Circle Down
   search:
     terms:
-      - more
+      - arrow
       - dropdown
       - menu
-      - arrow
+      - more
   styles:
     - solid
     - regular
@@ -2450,9 +3315,9 @@ chevron-circle-left:
   label: Chevron Circle Left
   search:
     terms:
-      - previous
-      - back
       - arrow
+      - back
+      - previous
   styles:
     - solid
     - regular
@@ -2465,9 +3330,9 @@ chevron-circle-right:
   label: Chevron Circle Right
   search:
     terms:
-      - next
-      - forward
       - arrow
+      - forward
+      - next
   styles:
     - solid
     - regular
@@ -2503,9 +3368,9 @@ chevron-double-left:
   label: Chevron Double Left
   search:
     terms:
+      - back
       - bracket
       - previous
-      - back
   styles:
     - solid
     - regular
@@ -2518,8 +3383,8 @@ chevron-double-right:
   search:
     terms:
       - bracket
-      - next
       - forward
+      - next
   styles:
     - solid
     - regular
@@ -2555,9 +3420,9 @@ chevron-left:
   label: chevron-left
   search:
     terms:
+      - back
       - bracket
       - previous
-      - back
   styles:
     - solid
     - regular
@@ -2571,8 +3436,8 @@ chevron-right:
   search:
     terms:
       - bracket
-      - next
       - forward
+      - next
   styles:
     - solid
     - regular
@@ -2584,10 +3449,10 @@ chevron-square-down:
   label: Chevron Square Down
   search:
     terms:
-      - more
+      - arrow
       - dropdown
       - menu
-      - arrow
+      - more
   styles:
     - solid
     - regular
@@ -2599,9 +3464,9 @@ chevron-square-left:
   label: Chevron Square Left
   search:
     terms:
-      - previous
-      - back
       - arrow
+      - back
+      - previous
   styles:
     - solid
     - regular
@@ -2613,9 +3478,9 @@ chevron-square-right:
   label: Chevron Square Right
   search:
     terms:
-      - next
-      - forward
       - arrow
+      - forward
+      - next
   styles:
     - solid
     - regular
@@ -2668,6 +3533,20 @@ chrome:
   styles:
     - brands
   unicode: f268
+church:
+  changes:
+    - 5.0.13
+  label: Church
+  search:
+    terms:
+      - building
+      - community
+      - religion
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f51d
 circle:
   changes:
     - '3'
@@ -2675,9 +3554,9 @@ circle:
   label: Circle
   search:
     terms:
+      - circle-thin
       - dot
       - notification
-      - circle-thin
   styles:
     - solid
     - regular
@@ -2708,6 +3587,46 @@ clipboard:
     - regular
     - light
   unicode: f328
+clipboard-check:
+  changes:
+    - 5.0.7
+  label: Clipboard Check
+  search:
+    terms:
+      - accept
+      - agree
+      - confirm
+      - done
+      - ok
+      - select
+      - success
+      - todo
+      - 'yes'
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f46c
+clipboard-list:
+  changes:
+    - 5.0.7
+  label: Clipboard List
+  search:
+    terms:
+      - checklist
+      - completed
+      - done
+      - finished
+      - intinerary
+      - ol
+      - schedule
+      - todo
+      - ul
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f46d
 clock:
   changes:
     - '1'
@@ -2715,11 +3634,12 @@ clock:
   label: Clock
   search:
     terms:
-      - watch
-      - timer
-      - late
-      - timestamp
       - date
+      - late
+      - schedule
+      - timer
+      - timestamp
+      - watch
   styles:
     - solid
     - regular
@@ -2733,6 +3653,7 @@ clone:
   search:
     terms:
       - copy
+      - duplicate
   styles:
     - solid
     - regular
@@ -2755,6 +3676,7 @@ cloud:
   changes:
     - '2'
     - 5.0.0
+    - 5.0.11
   label: Cloud
   search:
     terms:
@@ -2768,6 +3690,7 @@ cloud-download:
   changes:
     - '3'
     - 5.0.0
+    - 5.0.11
   label: Cloud Download
   search:
     terms:
@@ -2780,7 +3703,8 @@ cloud-download:
 cloud-download-alt:
   changes:
     - 5.0.0
-  label: Cloud Download-alt
+    - 5.0.11
+  label: Alternate Cloud Download
   search:
     terms:
       - cloud-download
@@ -2793,6 +3717,7 @@ cloud-upload:
   changes:
     - '3'
     - 5.0.0
+    - 5.0.11
   label: Cloud Upload
   search:
     terms:
@@ -2805,7 +3730,8 @@ cloud-upload:
 cloud-upload-alt:
   changes:
     - 5.0.0
-  label: Cloud Upload-alt
+    - 5.0.11
+  label: Alternate Cloud Upload
   search:
     terms:
       - cloud-upload
@@ -2820,9 +3746,6 @@ cloudscale:
   label: cloudscale.ch
   search:
     terms: []
-  sponsored:
-    label: cloudscale.ch
-    url: 'https://www.cloudscale.ch'
   styles:
     - brands
   unicode: f383
@@ -2832,9 +3755,6 @@ cloudsmith:
   label: Cloudsmith
   search:
     terms: []
-  sponsored:
-    label: Cloudsmith
-    url: 'https://cloudsmith.io'
   styles:
     - brands
   unicode: f384
@@ -2844,9 +3764,6 @@ cloudversify:
   label: cloudversify
   search:
     terms: []
-  sponsored:
-    label: cloudversify
-    url: 'https://www.cloudversify.com'
   styles:
     - brands
   unicode: f385
@@ -2856,13 +3773,26 @@ club:
   label: Club
   search:
     terms:
-      - suit
       - card
+      - suit
   styles:
     - solid
     - regular
     - light
   unicode: f327
+cocktail:
+  changes:
+    - 5.1.0
+  label: Cocktail
+  search:
+    terms:
+      - alcohol
+      - drink
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f561
 code:
   changes:
     - '3.1'
@@ -2870,8 +3800,8 @@ code:
   label: Code
   search:
     terms:
-      - html
       - brackets
+      - html
   styles:
     - solid
     - regular
@@ -2883,15 +3813,15 @@ code-branch:
   label: Code Branch
   search:
     terms:
-      - git
-      - fork
-      - vcs
-      - svn
-      - github
-      - rebase
-      - version
       - branch
       - code-fork
+      - fork
+      - git
+      - github
+      - rebase
+      - svn
+      - vcs
+      - version
   styles:
     - solid
     - regular
@@ -2903,14 +3833,14 @@ code-commit:
   label: Code Commit
   search:
     terms:
-      - git
-      - vcs
-      - svn
-      - github
-      - rebase
-      - version
       - commit
+      - git
+      - github
       - hash
+      - rebase
+      - svn
+      - vcs
+      - version
   styles:
     - solid
     - regular
@@ -2923,13 +3853,13 @@ code-merge:
   search:
     terms:
       - git
-      - vcs
-      - svn
       - github
-      - rebase
-      - version
       - merge
       - pr
+      - rebase
+      - svn
+      - vcs
+      - version
   styles:
     - solid
     - regular
@@ -2962,12 +3892,12 @@ coffee:
   label: Coffee
   search:
     terms:
+      - breakfast
+      - cafe
+      - drink
       - morning
       - mug
-      - breakfast
       - tea
-      - drink
-      - cafe
   styles:
     - solid
     - regular
@@ -2993,12 +3923,24 @@ cogs:
   label: cogs
   search:
     terms:
+      - gears
       - settings
   styles:
     - solid
     - regular
     - light
   unicode: f085
+coins:
+  changes:
+    - 5.0.13
+  label: Coins
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f51e
 columns:
   changes:
     - '2'
@@ -3006,8 +3948,9 @@ columns:
   label: Columns
   search:
     terms:
-      - split
+      - dashboard
       - panes
+      - split
   styles:
     - solid
     - regular
@@ -3017,19 +3960,20 @@ comment:
   changes:
     - '1'
     - 5.0.0
+    - 5.0.9
   label: comment
   search:
     terms:
-      - speech
-      - notification
-      - note
-      - chat
       - bubble
+      - chat
+      - conversation
       - feedback
       - message
-      - texting
+      - note
+      - notification
       - sms
-      - conversation
+      - speech
+      - texting
   styles:
     - solid
     - regular
@@ -3042,45 +3986,294 @@ comment-alt:
   label: Alternate Comment
   search:
     terms:
-      - speech
-      - notification
-      - note
-      - chat
       - bubble
+      - chat
+      - commenting
+      - commenting
+      - conversation
       - feedback
       - message
-      - texting
+      - note
+      - notification
       - sms
-      - conversation
-      - commenting
-      - commenting
+      - speech
+      - texting
   styles:
     - solid
     - regular
     - light
   unicode: f27a
+comment-alt-check:
+  changes:
+    - 5.0.9
+  label: Comment Alt-check
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f4a2
+comment-alt-dots:
+  changes:
+    - 5.0.9
+  label: Comment Alt-dots
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f4a3
+comment-alt-edit:
+  changes:
+    - 5.0.9
+  label: Comment Alt-edit
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f4a4
+comment-alt-exclamation:
+  changes:
+    - 5.0.9
+  label: Comment Alt-exclamation
+  search:
+    terms:
+      - important
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f4a5
+comment-alt-lines:
+  changes:
+    - 5.0.9
+  label: Comment Alt-lines
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f4a6
+comment-alt-minus:
+  changes:
+    - 5.0.9
+  label: Comment Alt-minus
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f4a7
+comment-alt-plus:
+  changes:
+    - 5.0.9
+  label: Comment Alt-plus
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f4a8
+comment-alt-slash:
+  changes:
+    - 5.0.9
+  label: Alternate Comment Slash
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f4a9
+comment-alt-smile:
+  changes:
+    - 5.0.9
+  label: Alternate Comment Smile
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f4aa
+comment-alt-times:
+  changes:
+    - 5.0.9
+  label: Alternate Comment Times
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f4ab
+comment-check:
+  changes:
+    - 5.0.9
+  label: Comment Check
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f4ac
+comment-dots:
+  changes:
+    - 5.0.9
+  label: Comment Dots
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f4ad
+comment-edit:
+  changes:
+    - 5.0.9
+  label: Comment Edit
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f4ae
+comment-exclamation:
+  changes:
+    - 5.0.9
+  label: Comment Exclamation
+  search:
+    terms:
+      - important
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f4af
+comment-lines:
+  changes:
+    - 5.0.9
+  label: Comment Lines
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f4b0
+comment-minus:
+  changes:
+    - 5.0.9
+  label: Comment Minus
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f4b1
+comment-plus:
+  changes:
+    - 5.0.9
+  label: Comment Plus
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f4b2
+comment-slash:
+  changes:
+    - 5.0.9
+  label: Comment Slash
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f4b3
+comment-smile:
+  changes:
+    - 5.0.9
+  label: Comment Smile
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f4b4
+comment-times:
+  changes:
+    - 5.0.9
+  label: Comment Times
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f4b5
 comments:
   changes:
     - '1'
     - 5.0.0
+    - 5.0.9
   label: comments
   search:
     terms:
-      - speech
-      - notification
-      - note
-      - chat
       - bubble
+      - chat
+      - conversation
       - feedback
       - message
-      - texting
+      - note
+      - notification
       - sms
-      - conversation
+      - speech
+      - texting
   styles:
     - solid
     - regular
     - light
   unicode: f086
+comments-alt:
+  changes:
+    - 5.0.9
+  label: Comments Alt
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f4b6
+compact-disc:
+  changes:
+    - 5.0.13
+  label: Compact Disc
+  search:
+    terms:
+      - bluray
+      - cd
+      - disc
+      - media
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f51f
 compass:
   changes:
     - '3.2'
@@ -3088,10 +4281,10 @@ compass:
   label: Compass
   search:
     terms:
-      - safari
       - directory
-      - menu
       - location
+      - menu
+      - safari
   styles:
     - solid
     - regular
@@ -3146,6 +4339,21 @@ compress-wide:
     - regular
     - light
   unicode: f326
+concierge-bell:
+  changes:
+    - 5.1.0
+  label: Concierge Bell
+  search:
+    terms:
+      - attention
+      - hotel
+      - service
+      - support
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f562
 connectdevelop:
   changes:
     - '4.3'
@@ -3156,6 +4364,17 @@ connectdevelop:
   styles:
     - brands
   unicode: f20e
+container-storage:
+  changes:
+    - 5.0.9
+  label: Container Storage
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f4b7
 contao:
   changes:
     - '4.4'
@@ -3166,6 +4385,50 @@ contao:
   styles:
     - brands
   unicode: f26d
+conveyor-belt:
+  changes:
+    - 5.0.7
+  label: Conveyor Belt
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f46e
+conveyor-belt-alt:
+  changes:
+    - 5.0.7
+  label: Alternate Conveyor Belt
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f46f
+cookie:
+  changes:
+    - 5.1.0
+  label: Cookie
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f563
+cookie-bite:
+  changes:
+    - 5.1.0
+  label: Cookie Bite
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f564
 copy:
   changes:
     - '2'
@@ -3173,8 +4436,8 @@ copy:
   label: Copy
   search:
     terms:
-      - duplicate
       - clone
+      - duplicate
       - file
       - files-o
   styles:
@@ -3194,15 +4457,23 @@ copyright:
     - regular
     - light
   unicode: f1f9
+couch:
+  changes:
+    - 5.0.9
+  label: Couch
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f4b8
 cpanel:
   changes:
     - 5.0.0
   label: cPanel
   search:
     terms: []
-  sponsored:
-    label: cPanel
-    url: 'http://cpanel.com/'
   styles:
     - brands
   unicode: f388
@@ -3210,12 +4481,131 @@ creative-commons:
   changes:
     - '4.4'
     - 5.0.0
+    - 5.0.11
+    - 5.1.0
   label: Creative Commons
   search:
     terms: []
   styles:
     - brands
   unicode: f25e
+creative-commons-by:
+  changes:
+    - 5.0.11
+  label: Creative Commons Attribution
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f4e7
+creative-commons-nc:
+  changes:
+    - 5.0.11
+  label: Creative Commons Noncommercial
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f4e8
+creative-commons-nc-eu:
+  changes:
+    - 5.0.11
+  label: Creative Commons Noncommercial (Euro Sign)
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f4e9
+creative-commons-nc-jp:
+  changes:
+    - 5.0.11
+  label: Creative Commons Noncommercial (Yen Sign)
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f4ea
+creative-commons-nd:
+  changes:
+    - 5.0.11
+  label: Creative Commons No Derivative Works
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f4eb
+creative-commons-pd:
+  changes:
+    - 5.0.11
+  label: Creative Commons Public Domain
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f4ec
+creative-commons-pd-alt:
+  changes:
+    - 5.0.11
+  label: Creative Commons Public Domain Alternate
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f4ed
+creative-commons-remix:
+  changes:
+    - 5.0.11
+  label: Creative Commons Remix
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f4ee
+creative-commons-sa:
+  changes:
+    - 5.0.11
+  label: Creative Commons Share Alike
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f4ef
+creative-commons-sampling:
+  changes:
+    - 5.0.11
+  label: Creative Commons Sampling
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f4f0
+creative-commons-sampling-plus:
+  changes:
+    - 5.0.11
+  label: Creative Commons Sampling +
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f4f1
+creative-commons-share:
+  changes:
+    - 5.0.11
+  label: Creative Commons Share
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f4f2
+creative-commons-zero:
+  changes:
+    - 5.0.11
+  label: Creative Commons CC0
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f4f3
 credit-card:
   changes:
     - '2'
@@ -3223,13 +4613,13 @@ credit-card:
   label: Credit Card
   search:
     terms:
-      - money
       - buy
-      - debit
       - checkout
-      - purchase
-      - payment
       - credit-card-alt
+      - debit
+      - money
+      - payment
+      - purchase
   styles:
     - solid
     - regular
@@ -3241,12 +4631,12 @@ credit-card-blank:
   label: Credit Card Blank
   search:
     terms:
-      - money
       - buy
-      - debit
       - checkout
-      - purchase
+      - debit
+      - money
       - payment
+      - purchase
   styles:
     - solid
     - regular
@@ -3258,30 +4648,54 @@ credit-card-front:
   label: Credit Card Front
   search:
     terms:
-      - money
       - buy
-      - debit
       - checkout
-      - purchase
-      - payment
       - chip
+      - debit
+      - money
+      - payment
+      - purchase
   styles:
     - solid
     - regular
     - light
   unicode: f38a
-crop:
+cricket:
   changes:
-    - '3.1'
-    - 5.0.0
-  label: crop
+    - 5.0.5
+  label: Cricket
   search:
     terms: []
   styles:
     - solid
     - regular
     - light
+  unicode: f449
+crop:
+  changes:
+    - '3.1'
+    - 5.0.0
+    - 5.1.0
+  label: crop
+  search:
+    terms:
+      - design
+  styles:
+    - solid
+    - regular
+    - light
   unicode: f125
+crop-alt:
+  changes:
+    - 5.1.0
+  label: Alternate Crop
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f565
 crosshairs:
   changes:
     - '1'
@@ -3289,12 +4703,39 @@ crosshairs:
   label: Crosshairs
   search:
     terms:
+      - gpd
       - picker
+      - position
   styles:
     - solid
     - regular
     - light
   unicode: f05b
+crow:
+  changes:
+    - 5.0.13
+  label: Crow
+  search:
+    terms:
+      - bird
+      - bullfrog
+      - toad
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f520
+crown:
+  changes:
+    - 5.0.13
+  label: Crown
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f521
 css3:
   changes:
     - '3.1'
@@ -3321,7 +4762,8 @@ cube:
     - 5.0.0
   label: Cube
   search:
-    terms: []
+    terms:
+      - package
   styles:
     - solid
     - regular
@@ -3333,16 +4775,29 @@ cubes:
     - 5.0.0
   label: Cubes
   search:
-    terms: []
+    terms:
+      - packages
   styles:
     - solid
     - regular
     - light
   unicode: f1b3
+curling:
+  changes:
+    - 5.0.5
+  label: Curling
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f44a
 cut:
   changes:
     - '2'
     - 5.0.0
+    - 5.1.0
   label: Cut
   search:
     terms:
@@ -3359,9 +4814,6 @@ cuttlefish:
   label: Cuttlefish
   search:
     terms: []
-  sponsored:
-    label: Cuttlefish
-    url: 'http://wearecuttlefish.com'
   styles:
     - brands
   unicode: f38c
@@ -3378,6 +4830,7 @@ dashcube:
   changes:
     - '4.3'
     - 5.0.0
+    - 5.0.3
   label: DashCube
   search:
     terms: []
@@ -3424,9 +4877,6 @@ deploydog:
   label: deploy.dog
   search:
     terms: []
-  sponsored:
-    label: deploy.dog
-    url: 'http://deploy.dog'
   styles:
     - brands
   unicode: f38e
@@ -3436,9 +4886,6 @@ deskpro:
   label: Deskpro
   search:
     terms: []
-  sponsored:
-    label: Deskpro
-    url: 'http://www.deskpro.com'
   styles:
     - brands
   unicode: f38f
@@ -3449,12 +4896,15 @@ desktop:
   label: Desktop
   search:
     terms:
-      - monitor
-      - screen
-      - desktop
       - computer
+      - cpu
       - demo
+      - desktop
       - device
+      - machine
+      - monitor
+      - pc
+      - screen
   styles:
     - solid
     - regular
@@ -3463,9 +4913,19 @@ desktop:
 desktop-alt:
   changes:
     - 5.0.0
-  label: Alterate Desktop
+  label: Alternate Desktop
   search:
-    terms: []
+    terms:
+      - apple
+      - computer
+      - cpu
+      - demo
+      - desktop
+      - device
+      - imac
+      - machine
+      - monitor
+      - screen
   styles:
     - solid
     - regular
@@ -3481,6 +4941,17 @@ deviantart:
   styles:
     - brands
   unicode: f1bd
+diagnoses:
+  changes:
+    - 5.0.7
+  label: Diagnoses
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f470
 diamond:
   changes:
     - '4.3'
@@ -3495,6 +4966,111 @@ diamond:
     - regular
     - light
   unicode: f219
+dice:
+  changes:
+    - 5.0.13
+  label: Dice
+  search:
+    terms:
+      - chance
+      - gambling
+      - game
+      - roll
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f522
+dice-five:
+  changes:
+    - 5.0.13
+  label: Dice Five
+  search:
+    terms:
+      - chance
+      - gambling
+      - game
+      - roll
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f523
+dice-four:
+  changes:
+    - 5.0.13
+  label: Dice Four
+  search:
+    terms:
+      - chance
+      - gambling
+      - game
+      - roll
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f524
+dice-one:
+  changes:
+    - 5.0.13
+  label: Dice One
+  search:
+    terms:
+      - chance
+      - gambling
+      - game
+      - roll
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f525
+dice-six:
+  changes:
+    - 5.0.13
+  label: Dice Six
+  search:
+    terms:
+      - chance
+      - gambling
+      - game
+      - roll
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f526
+dice-three:
+  changes:
+    - 5.0.13
+  label: Dice Three
+  search:
+    terms:
+      - chance
+      - gambling
+      - game
+      - roll
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f527
+dice-two:
+  changes:
+    - 5.0.13
+  label: Dice Two
+  search:
+    terms:
+      - chance
+      - gambling
+      - game
+      - roll
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f528
 digg:
   changes:
     - '4.1'
@@ -3514,6 +5090,17 @@ digital-ocean:
   styles:
     - brands
   unicode: f391
+digital-tachograph:
+  changes:
+    - 5.1.0
+  label: Digital Tachograph
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f566
 discord:
   changes:
     - 5.0.0
@@ -3526,24 +5113,55 @@ discord:
 discourse:
   changes:
     - 5.0.0
+    - 5.0.3
   label: Discourse
   search:
     terms: []
-  sponsored:
-    label: Discourse
-    url: 'https://discourse.org'
   styles:
     - brands
   unicode: f393
+divide:
+  changes:
+    - 5.0.13
+  label: Divide
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f529
+dizzy:
+  changes:
+    - 5.1.0
+  label: Dizzy Face
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f567
+dna:
+  changes:
+    - 5.0.7
+    - 5.0.10
+  label: DNA
+  search:
+    terms:
+      - double helix
+      - helix
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f471
 dochub:
   changes:
     - 5.0.0
   label: DocHub
   search:
     terms: []
-  sponsored:
-    label: DocHub
-    url: 'https://dochub.com'
   styles:
     - brands
   unicode: f394
@@ -3560,16 +5178,110 @@ dollar-sign:
   changes:
     - '3.2'
     - 5.0.0
+    - 5.0.9
   label: Dollar Sign
   search:
     terms:
-      - usd
+      - $
+      - dollar-sign
+      - money
+      - price
       - usd
   styles:
     - solid
     - regular
     - light
   unicode: f155
+dolly:
+  changes:
+    - 5.0.7
+  label: Dolly
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f472
+dolly-empty:
+  changes:
+    - 5.0.7
+  label: Dolly Empty
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f473
+dolly-flatbed:
+  changes:
+    - 5.0.7
+  label: Dolly Flatbed
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f474
+dolly-flatbed-alt:
+  changes:
+    - 5.0.7
+  label: Alternate Dolly Flatbed
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f475
+dolly-flatbed-empty:
+  changes:
+    - 5.0.7
+  label: Dolly Flatbed-empty
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f476
+donate:
+  changes:
+    - 5.0.9
+  label: Donate
+  search:
+    terms:
+      - generosity
+      - give
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f4b9
+door-closed:
+  changes:
+    - 5.0.13
+  label: Door Closed
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f52a
+door-open:
+  changes:
+    - 5.0.13
+  label: Door Open
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f52b
 dot-circle:
   changes:
     - '4'
@@ -3577,14 +5289,25 @@ dot-circle:
   label: Dot Circle
   search:
     terms:
-      - target
       - bullseye
       - notification
+      - target
   styles:
     - solid
     - regular
     - light
   unicode: f192
+dove:
+  changes:
+    - 5.0.9
+  label: Dove
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f4ba
 download:
   changes:
     - '1'
@@ -3604,12 +5327,20 @@ draft2digital:
   label: Draft2digital
   search:
     terms: []
-  sponsored:
-    label: Draft2Digital
-    url: 'http://draft2digital.com'
   styles:
     - brands
   unicode: f396
+drafting-compass:
+  changes:
+    - 5.1.0
+  label: Drafting Compass
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f568
 dribbble:
   changes:
     - 5.0.0
@@ -3639,6 +5370,28 @@ dropbox:
   styles:
     - brands
   unicode: f16b
+drum:
+  changes:
+    - 5.1.0
+  label: Drum
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f569
+drum-steelpan:
+  changes:
+    - 5.1.0
+  label: Drum Steelpan
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f56a
 drupal:
   changes:
     - '4.1'
@@ -3649,15 +5402,28 @@ drupal:
   styles:
     - brands
   unicode: f1a9
+dumbbell:
+  changes:
+    - 5.0.5
+  label: Dumbbell
+  search:
+    terms:
+      - exercise
+      - gym
+      - strength
+      - weight
+      - weight-lifting
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f44b
 dyalog:
   changes:
     - 5.0.0
   label: Dyalog
   search:
     terms: []
-  sponsored:
-    label: Dyalog APL
-    url: 'http://www.dyalog.com'
   styles:
     - brands
   unicode: f399
@@ -3670,6 +5436,15 @@ earlybirds:
   styles:
     - brands
   unicode: f39a
+ebay:
+  changes:
+    - 5.0.11
+  label: eBay
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f4f4
 edge:
   changes:
     - '4.5'
@@ -3689,11 +5464,11 @@ edit:
   label: Edit
   search:
     terms:
-      - write
       - edit
-      - update
-      - pencil
       - pen
+      - pencil
+      - update
+      - write
   styles:
     - solid
     - regular
@@ -3711,6 +5486,15 @@ eject:
     - regular
     - light
   unicode: f052
+elementor:
+  changes:
+    - 5.0.3
+  label: Elementor
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f430
 ellipsis-h:
   changes:
     - '3.1'
@@ -3719,6 +5503,16 @@ ellipsis-h:
   search:
     terms:
       - dots
+      - drag
+      - kebab
+      - list
+      - menu
+      - nav
+      - navigation
+      - ol
+      - reorder
+      - settings
+      - ul
   styles:
     - solid
     - regular
@@ -3729,7 +5523,18 @@ ellipsis-h-alt:
     - 5.0.0
   label: Alternate Horizontal Ellipsis
   search:
-    terms: []
+    terms:
+      - dots
+      - drag
+      - kebab
+      - list
+      - menu
+      - nav
+      - navigation
+      - ol
+      - reorder
+      - settings
+      - ul
   styles:
     - solid
     - regular
@@ -3743,6 +5548,16 @@ ellipsis-v:
   search:
     terms:
       - dots
+      - drag
+      - kebab
+      - list
+      - menu
+      - nav
+      - navigation
+      - ol
+      - reorder
+      - settings
+      - ul
   styles:
     - solid
     - regular
@@ -3753,7 +5568,18 @@ ellipsis-v-alt:
     - 5.0.0
   label: Alternate Vertical Ellipsis
   search:
-    terms: []
+    terms:
+      - dots
+      - drag
+      - kebab
+      - list
+      - menu
+      - nav
+      - navigation
+      - ol
+      - reorder
+      - settings
+      - ul
   styles:
     - solid
     - regular
@@ -3762,6 +5588,7 @@ ellipsis-v-alt:
 ember:
   changes:
     - 5.0.0
+    - 5.0.3
   label: Ember
   search:
     terms: []
@@ -3785,13 +5612,13 @@ envelope:
   label: Envelope
   search:
     terms:
-      - email
       - e-mail
+      - email
       - letter
-      - support
       - mail
       - message
       - notification
+      - support
   styles:
     - solid
     - regular
@@ -3804,13 +5631,13 @@ envelope-open:
   label: Envelope Open
   search:
     terms:
-      - email
       - e-mail
+      - email
       - letter
-      - support
       - mail
       - message
       - notification
+      - support
   styles:
     - solid
     - regular
@@ -3823,13 +5650,13 @@ envelope-square:
   label: Envelope Square
   search:
     terms:
-      - email
       - e-mail
+      - email
       - letter
-      - support
       - mail
       - message
       - notification
+      - support
   styles:
     - solid
     - regular
@@ -3846,6 +5673,17 @@ envira:
   styles:
     - brands
   unicode: f299
+equals:
+  changes:
+    - 5.0.13
+  label: Equals
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f52c
 eraser:
   changes:
     - '3.1'
@@ -3853,8 +5691,8 @@ eraser:
   label: eraser
   search:
     terms:
-      - remove
       - delete
+      - remove
   styles:
     - solid
     - regular
@@ -3863,12 +5701,22 @@ eraser:
 erlang:
   changes:
     - 5.0.0
+    - 5.0.3
   label: Erlang
   search:
     terms: []
   styles:
     - brands
   unicode: f39d
+ethereum:
+  changes:
+    - 5.0.2
+  label: Ethereum
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f42e
 etsy:
   changes:
     - '4.7'
@@ -3900,9 +5748,12 @@ exchange:
   label: Exchange
   search:
     terms:
-      - transfer
-      - arrows
       - arrow
+      - arrows
+      - reciprocate
+      - return
+      - swap
+      - transfer
   styles:
     - solid
     - regular
@@ -3914,10 +5765,13 @@ exchange-alt:
   label: Alternate Exchange
   search:
     terms:
-      - transfer
-      - arrows
       - arrow
+      - arrows
       - exchange
+      - reciprocate
+      - return
+      - swap
+      - transfer
   styles:
     - solid
     - regular
@@ -3930,12 +5784,15 @@ exclamation:
   label: exclamation
   search:
     terms:
-      - warning
+      - alert
+      - danger
       - error
-      - problem
+      - important
+      - notice
       - notification
       - notify
-      - alert
+      - problem
+      - warning
   styles:
     - solid
     - regular
@@ -3948,12 +5805,15 @@ exclamation-circle:
   label: Exclamation Circle
   search:
     terms:
-      - warning
+      - alert
+      - danger
       - error
-      - problem
+      - important
+      - notice
       - notification
       - notify
-      - alert
+      - problem
+      - warning
   styles:
     - solid
     - regular
@@ -3965,12 +5825,15 @@ exclamation-square:
   label: Exclamation Square
   search:
     terms:
-      - warning
+      - alert
+      - danger
       - error
-      - problem
+      - important
+      - notice
       - notification
       - notify
-      - alert
+      - problem
+      - warning
   styles:
     - solid
     - regular
@@ -3983,12 +5846,15 @@ exclamation-triangle:
   label: Exclamation Triangle
   search:
     terms:
-      - warning
+      - alert
+      - danger
       - error
-      - problem
+      - important
+      - notice
       - notification
       - notify
-      - alert
+      - problem
+      - warning
   styles:
     - solid
     - regular
@@ -4000,8 +5866,8 @@ expand:
   label: Expand
   search:
     terms:
-      - enlarge
       - bigger
+      - enlarge
       - resize
   styles:
     - solid
@@ -4015,8 +5881,8 @@ expand-alt:
   label: Alternate Expand
   search:
     terms:
-      - enlarge
       - bigger
+      - enlarge
       - resize
   styles:
     - solid
@@ -4029,10 +5895,10 @@ expand-arrows:
   label: Expand Arrows
   search:
     terms:
-      - enlarge
       - bigger
-      - resize
+      - enlarge
       - move
+      - resize
   styles:
     - solid
     - regular
@@ -4044,11 +5910,11 @@ expand-arrows-alt:
   label: Alternate Expand Arrows
   search:
     terms:
-      - enlarge
-      - bigger
-      - resize
-      - move
       - arrows-alt
+      - bigger
+      - enlarge
+      - move
+      - resize
   styles:
     - solid
     - regular
@@ -4060,8 +5926,8 @@ expand-wide:
   label: Expand Wide
   search:
     terms:
-      - enlarge
       - bigger
+      - enlarge
       - resize
   styles:
     - solid
@@ -4085,8 +5951,8 @@ external-link:
   label: External Link
   search:
     terms:
-      - open
       - new
+      - open
   styles:
     - solid
     - regular
@@ -4098,9 +5964,9 @@ external-link-alt:
   label: Alternate External Link
   search:
     terms:
-      - open
-      - new
       - external-link
+      - new
+      - open
   styles:
     - solid
     - regular
@@ -4113,8 +5979,8 @@ external-link-square:
   label: External Link Square
   search:
     terms:
-      - open
       - new
+      - open
   styles:
     - solid
     - regular
@@ -4126,9 +5992,9 @@ external-link-square-alt:
   label: Alternate External Link Square
   search:
     terms:
-      - open
-      - new
       - external-link-square
+      - new
+      - open
   styles:
     - solid
     - regular
@@ -4141,9 +6007,13 @@ eye:
   label: Eye
   search:
     terms:
+      - optic
+      - see
+      - seen
       - show
-      - visible
+      - sight
       - views
+      - visible
   styles:
     - solid
     - regular
@@ -4153,6 +6023,7 @@ eye-dropper:
   changes:
     - '4.2'
     - 5.0.0
+    - 5.1.0
   label: Eye Dropper
   search:
     terms:
@@ -4169,12 +6040,14 @@ eye-slash:
   label: Eye Slash
   search:
     terms:
-      - toggle
-      - show
+      - blind
       - hide
+      - show
+      - toggle
+      - unseen
+      - views
       - visible
       - visiblity
-      - views
   styles:
     - solid
     - regular
@@ -4187,8 +6060,8 @@ facebook:
   label: Facebook
   search:
     terms:
-      - social network
       - facebook-official
+      - social network
   styles:
     - brands
   unicode: f09a
@@ -4229,11 +6102,11 @@ fast-backward:
   label: fast-backward
   search:
     terms:
-      - rewind
-      - previous
       - beginning
-      - start
       - first
+      - previous
+      - rewind
+      - start
   styles:
     - solid
     - regular
@@ -4246,9 +6119,9 @@ fast-forward:
   label: fast-forward
   search:
     terms:
-      - next
       - end
       - last
+      - next
   styles:
     - solid
     - regular
@@ -4266,6 +6139,29 @@ fax:
     - regular
     - light
   unicode: f1ac
+feather:
+  changes:
+    - 5.0.13
+    - 5.1.0
+  label: Feather
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f52d
+feather-alt:
+  changes:
+    - 5.1.0
+  label: Feather Alt
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f56b
 female:
   changes:
     - '3.2'
@@ -4273,15 +6169,27 @@ female:
   label: Female
   search:
     terms:
-      - woman
-      - user
+      - human
       - person
       - profile
+      - user
+      - woman
   styles:
     - solid
     - regular
     - light
   unicode: f182
+field-hockey:
+  changes:
+    - 5.0.5
+  label: Field Hockey
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f44c
 fighter-jet:
   changes:
     - '3'
@@ -4289,11 +6197,15 @@ fighter-jet:
   label: fighter-jet
   search:
     terms:
-      - fly
-      - plane
       - airplane
-      - quick
       - fast
+      - fly
+      - goose
+      - maverick
+      - plane
+      - quick
+      - top gun
+      - transportation
       - travel
   styles:
     - solid
@@ -4307,10 +6219,11 @@ file:
   label: File
   search:
     terms:
+      - document
       - new
       - page
       - pdf
-      - document
+      - resume
   styles:
     - solid
     - regular
@@ -4323,11 +6236,12 @@ file-alt:
   label: Alternate File
   search:
     terms:
+      - document
+      - file-text
+      - invoice
       - new
       - page
       - pdf
-      - document
-      - file-text
   styles:
     - solid
     - regular
@@ -4339,7 +6253,13 @@ file-archive:
     - 5.0.0
   label: Archive File
   search:
-    terms: []
+    terms:
+      - .zip
+      - bundle
+      - compress
+      - compression
+      - download
+      - zip
   styles:
     - solid
     - regular
@@ -4362,7 +6282,16 @@ file-check:
     - 5.0.0
   label: Check File
   search:
-    terms: []
+    terms:
+      - accept
+      - agree
+      - confirm
+      - done
+      - ok
+      - select
+      - success
+      - synced
+      - todo
   styles:
     - solid
     - regular
@@ -4380,6 +6309,33 @@ file-code:
     - regular
     - light
   unicode: f1c9
+file-contract:
+  changes:
+    - 5.1.0
+  label: File Contract
+  search:
+    terms:
+      - agreement
+      - binding
+      - document
+      - legal
+      - signature
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f56c
+file-download:
+  changes:
+    - 5.1.0
+  label: File Download
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f56d
 file-edit:
   changes:
     - 5.0.0
@@ -4409,12 +6365,24 @@ file-exclamation:
     - 5.0.0
   label: Exclamation File
   search:
-    terms: []
+    terms:
+      - important
   styles:
     - solid
     - regular
     - light
   unicode: f31a
+file-export:
+  changes:
+    - 5.1.0
+  label: File Export
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f56e
 file-image:
   changes:
     - '4.1'
@@ -4427,6 +6395,71 @@ file-image:
     - regular
     - light
   unicode: f1c5
+file-import:
+  changes:
+    - 5.1.0
+  label: File Import
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f56f
+file-invoice:
+  changes:
+    - 5.1.0
+  label: File Invoice
+  search:
+    terms:
+      - bill
+      - document
+      - receipt
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f570
+file-invoice-dollar:
+  changes:
+    - 5.1.0
+  label: File Invoice with US Dollar
+  search:
+    terms:
+      - $
+      - bill
+      - document
+      - dollar-sign
+      - money
+      - receipt
+      - usd
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f571
+file-medical:
+  changes:
+    - 5.0.7
+  label: Medical File
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f477
+file-medical-alt:
+  changes:
+    - 5.0.7
+  label: Alternate Medical File
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f478
 file-minus:
   changes:
     - 5.0.0
@@ -4473,6 +6506,36 @@ file-powerpoint:
     - regular
     - light
   unicode: f1c4
+file-prescription:
+  changes:
+    - 5.1.0
+  label: File Prescription
+  search:
+    terms:
+      - drugs
+      - medical
+      - medicine
+      - rx
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f572
+file-signature:
+  changes:
+    - 5.1.0
+  label: File Signature
+  search:
+    terms:
+      - John Hancock
+      - contract
+      - document
+      - name
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f573
 file-times:
   changes:
     - 5.0.0
@@ -4484,6 +6547,17 @@ file-times:
     - regular
     - light
   unicode: f317
+file-upload:
+  changes:
+    - 5.1.0
+  label: File Upload
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f574
 file-video:
   changes:
     - '4.1'
@@ -4508,6 +6582,28 @@ file-word:
     - regular
     - light
   unicode: f1c2
+fill:
+  changes:
+    - 5.1.0
+  label: Fill
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f575
+fill-drip:
+  changes:
+    - 5.1.0
+  label: Fill Drip
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f576
 film:
   changes:
     - '1'
@@ -4546,6 +6642,17 @@ filter:
     - regular
     - light
   unicode: f0b0
+fingerprint:
+  changes:
+    - 5.1.0
+  label: Fingerprint
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f577
 fire:
   changes:
     - '1'
@@ -4585,6 +6692,17 @@ firefox:
   styles:
     - brands
   unicode: f269
+first-aid:
+  changes:
+    - 5.0.7
+  label: First Aid
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f479
 first-order:
   changes:
     - '4.6'
@@ -4595,18 +6713,35 @@ first-order:
   styles:
     - brands
   unicode: f2b0
+first-order-alt:
+  changes:
+    - 5.0.12
+  label: Alternate First Order
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f50a
 firstdraft:
   changes:
     - 5.0.0
   label: firstdraft
   search:
     terms: []
-  sponsored:
-    label: firstdraft
-    url: 'http://www.firstdraft.com'
   styles:
     - brands
   unicode: f3a1
+fish:
+  changes:
+    - 5.1.0
+  label: Fish
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f578
 flag:
   changes:
     - '1'
@@ -4614,9 +6749,10 @@ flag:
   label: flag
   search:
     terms:
-      - report
+      - notice
       - notification
       - notify
+      - report
   styles:
     - solid
     - regular
@@ -4629,9 +6765,10 @@ flag-checkered:
   label: flag-checkered
   search:
     terms:
-      - report
+      - notice
       - notification
       - notify
+      - report
   styles:
     - solid
     - regular
@@ -4644,10 +6781,10 @@ flask:
   label: Flask
   search:
     terms:
-      - science
       - beaker
       - experimental
       - labs
+      - science
   styles:
     - solid
     - regular
@@ -4663,6 +6800,27 @@ flickr:
   styles:
     - brands
   unicode: f16e
+flipboard:
+  changes:
+    - 5.0.5
+    - 5.0.9
+  label: Flipboard
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f44d
+flushed:
+  changes:
+    - 5.1.0
+  label: Flushed Face
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f579
 fly:
   changes:
     - 5.0.0
@@ -4739,6 +6897,20 @@ font-awesome-flag:
   styles:
     - brands
   unicode: f425
+font-awesome-logo-full:
+  changes:
+    - 5.0.11
+  label: Font Awesome Full Logo
+  ligatures:
+    - Font Awesome
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+    - brands
+  unicode: f4e6
 fonticons:
   changes:
     - '4.4'
@@ -4758,13 +6930,48 @@ fonticons-fi:
   styles:
     - brands
   unicode: f3a2
+football-ball:
+  changes:
+    - 5.0.5
+  label: Football Ball
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f44e
+football-helmet:
+  changes:
+    - 5.0.5
+  label: Football Helmet
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f44f
+forklift:
+  changes:
+    - 5.0.7
+  label: Forklift
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f47a
 fort-awesome:
   changes:
     - '4.5'
     - 5.0.0
+    - 5.0.3
   label: Fort Awesome
   search:
-    terms: []
+    terms:
+      - castle
   styles:
     - brands
   unicode: f286
@@ -4773,7 +6980,8 @@ fort-awesome-alt:
     - 5.0.0
   label: Alternate Fort Awesome
   search:
-    terms: []
+    terms:
+      - castle
   styles:
     - brands
   unicode: f3a3
@@ -4811,6 +7019,17 @@ foursquare:
   styles:
     - brands
   unicode: f180
+fragile:
+  changes:
+    - 5.0.9
+  label: Fragile
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f4bb
 free-code-camp:
   changes:
     - '4.7'
@@ -4830,35 +7049,96 @@ freebsd:
   styles:
     - brands
   unicode: f3a4
+frog:
+  changes:
+    - 5.0.13
+  label: Frog
+  search:
+    terms:
+      - bullfrog
+      - kermit
+      - kiss
+      - prince
+      - toad
+      - wart
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f52e
 frown:
   changes:
     - '3.1'
     - 5.0.0
-  label: Frown
+    - 5.0.9
+    - 5.1.0
+  label: Frowning Face
   search:
     terms:
-      - face
-      - emoticon
-      - sad
       - disapprove
+      - emoticon
+      - face
       - rating
+      - sad
   styles:
     - solid
     - regular
     - light
   unicode: f119
-futbol:
+frown-open:
   changes:
-    - '4.2'
-    - 5.0.0
-  label: Futbol
+    - 5.1.0
+  label: Frowning Face With Open Mouth
   search:
     terms: []
   styles:
     - solid
     - regular
     - light
+  unicode: f57a
+fulcrum:
+  changes:
+    - 5.0.12
+  label: Fulcrum
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f50b
+futbol:
+  changes:
+    - '4.2'
+    - 5.0.0
+    - 5.0.5
+  label: Futbol
+  search:
+    terms:
+      - ball
+      - football
+      - soccer
+  styles:
+    - solid
+    - regular
+    - light
   unicode: f1e3
+galactic-republic:
+  changes:
+    - 5.0.12
+  label: Galactic Republic
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f50c
+galactic-senate:
+  changes:
+    - 5.0.12
+  label: Galactic Senate
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f50d
 gamepad:
   changes:
     - '3.1'
@@ -4872,6 +7152,17 @@ gamepad:
     - regular
     - light
   unicode: f11b
+gas-pump:
+  changes:
+    - 5.0.13
+  label: Gas Pump
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f52f
 gavel:
   changes:
     - '2'
@@ -4879,6 +7170,7 @@ gavel:
   label: Gavel
   search:
     terms:
+      - hammer
       - judge
       - lawyer
       - opinion
@@ -4945,10 +7237,15 @@ gift:
   changes:
     - '1'
     - 5.0.0
+    - 5.0.9
   label: gift
   search:
     terms:
+      - generosity
+      - giving
+      - party
       - present
+      - wrapped
   styles:
     - solid
     - regular
@@ -5040,20 +7337,49 @@ glass-martini:
   changes:
     - '1'
     - 5.0.0
+    - 5.1.0
   label: Martini Glass
   search:
     terms:
-      - martini
-      - drink
-      - bar
       - alcohol
-      - liquor
+      - bar
+      - drink
       - glass
+      - liquor
+      - martini
   styles:
     - solid
     - regular
     - light
   unicode: f000
+glass-martini-alt:
+  changes:
+    - 5.1.0
+  label: Glass Martini-alt
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f57b
+glasses:
+  changes:
+    - 5.0.13
+  label: Glasses
+  search:
+    terms:
+      - foureyes
+      - hipster
+      - nerd
+      - reading
+      - sight
+      - spectacles
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f530
 glide:
   changes:
     - '4.6'
@@ -5078,40 +7404,140 @@ globe:
   changes:
     - '2'
     - 5.0.0
+    - 5.0.9
   label: Globe
   search:
     terms:
-      - world
-      - planet
-      - map
-      - place
-      - travel
+      - all
+      - coordinates
+      - country
       - earth
       - global
-      - translate
-      - all
+      - gps
       - language
       - localize
       - location
-      - coordinates
-      - country
+      - map
+      - online
+      - place
+      - planet
+      - translate
+      - travel
+      - world
   styles:
     - solid
     - regular
     - light
   unicode: f0ac
+globe-africa:
+  changes:
+    - 5.1.0
+  label: Globe with Africa shown
+  search:
+    terms:
+      - all
+      - country
+      - earth
+      - global
+      - gps
+      - language
+      - localize
+      - location
+      - map
+      - online
+      - place
+      - planet
+      - translate
+      - travel
+      - world
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f57c
+globe-americas:
+  changes:
+    - 5.1.0
+  label: Globe with Americas shown
+  search:
+    terms:
+      - all
+      - country
+      - earth
+      - global
+      - gps
+      - language
+      - localize
+      - location
+      - map
+      - online
+      - place
+      - planet
+      - translate
+      - travel
+      - world
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f57d
+globe-asia:
+  changes:
+    - 5.1.0
+  label: Globe with Asia shown
+  search:
+    terms:
+      - all
+      - country
+      - earth
+      - global
+      - gps
+      - language
+      - localize
+      - location
+      - map
+      - online
+      - place
+      - planet
+      - translate
+      - travel
+      - world
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f57e
 gofore:
   changes:
     - 5.0.0
   label: Gofore
   search:
     terms: []
-  sponsored:
-    label: Gofore
-    url: 'http://gofore.com'
   styles:
     - brands
   unicode: f3a7
+golf-ball:
+  changes:
+    - 5.0.5
+  label: Golf Ball
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f450
+golf-club:
+  changes:
+    - 5.0.5
+  label: Golf Club
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f451
 goodreads:
   changes:
     - 5.0.0
@@ -5177,8 +7603,8 @@ google-plus-g:
   label: Google Plus G
   search:
     terms:
-      - social network
       - google-plus
+      - social network
   styles:
     - brands
   unicode: f0d5
@@ -5225,9 +7651,9 @@ gratipay:
   label: Gratipay (Gittip)
   search:
     terms:
+      - favorite
       - heart
       - like
-      - favorite
       - love
   styles:
     - brands
@@ -5242,15 +7668,216 @@ grav:
   styles:
     - brands
   unicode: f2d6
+greater-than:
+  changes:
+    - 5.0.13
+  label: Greater Than
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f531
+greater-than-equal:
+  changes:
+    - 5.0.13
+  label: Greater Than Equal To
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f532
+grimace:
+  changes:
+    - 5.1.0
+  label: Grimacing Face
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f57f
+grin:
+  changes:
+    - 5.1.0
+  label: Grinning Face
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f580
+grin-alt:
+  changes:
+    - 5.1.0
+  label: Alternate Grinning Face
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f581
+grin-beam:
+  changes:
+    - 5.1.0
+  label: Grinning Face With Smiling Eyes
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f582
+grin-beam-sweat:
+  changes:
+    - 5.1.0
+  label: Grinning Face With Sweat
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f583
+grin-hearts:
+  changes:
+    - 5.1.0
+  label: Smiling Face With Heart-Eyes
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f584
+grin-squint:
+  changes:
+    - 5.1.0
+  label: Grinning Squinting Face
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f585
+grin-squint-tears:
+  changes:
+    - 5.1.0
+  label: Rolling on the Floor Laughing
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f586
+grin-stars:
+  changes:
+    - 5.1.0
+  label: Star-Struck
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f587
+grin-tears:
+  changes:
+    - 5.1.0
+  label: Face With Tears of Joy
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f588
+grin-tongue:
+  changes:
+    - 5.1.0
+  label: Face With Tongue
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f589
+grin-tongue-squint:
+  changes:
+    - 5.1.0
+  label: Squinting Face With Tongue
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f58a
+grin-tongue-wink:
+  changes:
+    - 5.1.0
+  label: Winking Face With Tongue
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f58b
+grin-wink:
+  changes:
+    - 5.1.0
+  label: Grinning Winking Face
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f58c
+grip-horizontal:
+  changes:
+    - 5.1.0
+  label: Grip Horizontal
+  search:
+    terms:
+      - affordance
+      - grab
+      - handle
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f58d
+grip-vertical:
+  changes:
+    - 5.1.0
+  label: Grip Vertical
+  search:
+    terms:
+      - affordance
+      - grab
+      - handle
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f58e
 gripfire:
   changes:
     - 5.0.0
   label: 'Gripfire, Inc.'
   search:
     terms: []
-  sponsored:
-    label: 'Gripfire, Inc.'
-    url: 'http://gripfire.io'
   styles:
     - brands
   unicode: f3ac
@@ -5341,6 +7968,90 @@ hacker-news-square:
   styles:
     - brands
   unicode: f3af
+hand-heart:
+  changes:
+    - 5.0.9
+  label: Hand with Heart
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f4bc
+hand-holding:
+  changes:
+    - 5.0.9
+  label: Hand Holding
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f4bd
+hand-holding-box:
+  changes:
+    - 5.0.7
+    - 5.0.9
+  label: Hand Holding Box
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f47b
+hand-holding-heart:
+  changes:
+    - 5.0.9
+  label: Hand Holding Heart
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f4be
+hand-holding-seedling:
+  changes:
+    - 5.0.9
+  label: Hand Holding Seedling
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f4bf
+hand-holding-usd:
+  changes:
+    - 5.0.9
+  label: Hand Holding US Dollar
+  search:
+    terms:
+      - $
+      - dollar sign
+      - donation
+      - giving
+      - money
+      - price
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f4c0
+hand-holding-water:
+  changes:
+    - 5.0.9
+  label: Hand Holding Water
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f4c1
 hand-lizard:
   changes:
     - '4.4'
@@ -5385,9 +8096,9 @@ hand-point-down:
   label: Hand Pointing Down
   search:
     terms:
-      - point
       - finger
       - hand-o-down
+      - point
   styles:
     - solid
     - regular
@@ -5400,12 +8111,12 @@ hand-point-left:
   label: Hand Pointing Left
   search:
     terms:
-      - point
-      - left
-      - previous
       - back
       - finger
       - hand-o-left
+      - left
+      - point
+      - previous
   styles:
     - solid
     - regular
@@ -5418,12 +8129,12 @@ hand-point-right:
   label: Hand Pointing Right
   search:
     terms:
+      - finger
+      - forward
+      - hand-o-right
+      - next
       - point
       - right
-      - next
-      - forward
-      - finger
-      - hand-o-right
   styles:
     - solid
     - regular
@@ -5436,9 +8147,9 @@ hand-point-up:
   label: Hand Pointing Up
   search:
     terms:
-      - point
       - finger
       - hand-o-up
+      - point
   styles:
     - solid
     - regular
@@ -5450,12 +8161,25 @@ hand-pointer:
     - 5.0.0
   label: Pointer (Hand)
   search:
-    terms: []
+    terms:
+      - select
   styles:
     - solid
     - regular
     - light
   unicode: f25a
+hand-receiving:
+  changes:
+    - 5.0.7
+    - 5.0.9
+  label: Hand Receiving
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f47c
 hand-rock:
   changes:
     - '4.4'
@@ -5492,18 +8216,89 @@ hand-spock:
     - regular
     - light
   unicode: f259
-handshake:
+hands:
   changes:
-    - '4.7'
-    - 5.0.0
-  label: Handshake
+    - 5.0.9
+  label: Hands
   search:
     terms: []
   styles:
     - solid
     - regular
     - light
+  unicode: f4c2
+hands-heart:
+  changes:
+    - 5.0.9
+  label: Hands Heart
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f4c3
+hands-helping:
+  changes:
+    - 5.0.9
+  label: Helping Hands
+  search:
+    terms:
+      - aid
+      - assistance
+      - partnership
+      - volunteering
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f4c4
+hands-usd:
+  changes:
+    - 5.0.9
+  label: Hands with US Dollar
+  search:
+    terms:
+      - $
+      - dollar sign
+      - donation
+      - giving
+      - money
+      - price
+      - usd
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f4c5
+handshake:
+  changes:
+    - '4.7'
+    - 5.0.0
+    - 5.0.9
+  label: Handshake
+  search:
+    terms:
+      - greeting
+      - partnership
+  styles:
+    - solid
+    - regular
+    - light
   unicode: f2b5
+handshake-alt:
+  changes:
+    - 5.0.9
+  label: Alternate Handshake
+  search:
+    terms:
+      - greeting
+      - partnership
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f4c6
 hashtag:
   changes:
     - '4.5'
@@ -5523,10 +8318,12 @@ hdd:
   label: HDD
   search:
     terms:
-      - harddrive
+      - cpu
       - hard drive
-      - storage
+      - harddrive
+      - machine
       - save
+      - storage
   styles:
     - solid
     - regular
@@ -5553,43 +8350,114 @@ headphones:
   label: headphones
   search:
     terms:
-      - sound
+      - audio
       - listen
       - music
-      - audio
+      - sound
+      - speaker
   styles:
     - solid
     - regular
     - light
   unicode: f025
+headphones-alt:
+  changes:
+    - 5.1.0
+  label: Headphones Alt
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f58f
+headset:
+  changes:
+    - 5.1.0
+  label: Headset
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f590
 heart:
   changes:
     - '1'
     - 5.0.0
+    - 5.0.9
   label: Heart
   search:
     terms:
-      - love
-      - like
       - favorite
+      - like
+      - love
   styles:
     - solid
     - regular
     - light
   unicode: f004
+heart-circle:
+  changes:
+    - 5.0.9
+  label: Heart Circle
+  search:
+    terms:
+      - favorite
+      - like
+      - love
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f4c7
+heart-square:
+  changes:
+    - 5.0.9
+  label: Heart Square
+  search:
+    terms:
+      - favorite
+      - like
+      - love
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f4c8
 heartbeat:
   changes:
     - '4.3'
     - 5.0.0
+    - 5.0.7
   label: Heartbeat
   search:
     terms:
       - ekg
+      - lifeline
+      - vital signs
   styles:
     - solid
     - regular
     - light
   unicode: f21e
+helicopter:
+  changes:
+    - 5.0.13
+  label: Helicopter
+  search:
+    terms:
+      - airwolf
+      - apache
+      - chopper
+      - flight
+      - fly
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f533
 hexagon:
   changes:
     - 5.0.0
@@ -5601,15 +8469,37 @@ hexagon:
     - regular
     - light
   unicode: f312
+highlighter:
+  changes:
+    - 5.1.0
+  label: Highlighter
+  search:
+    terms:
+      - edit
+      - marker
+      - sharpie
+      - update
+      - write
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f591
+hips:
+  changes:
+    - 5.0.5
+  label: Hips
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f452
 hire-a-helper:
   changes:
     - 5.0.0
   label: HireAHelper
   search:
     terms: []
-  sponsored:
-    label: HireAHelper
-    url: 'https://www.hireahelper.com'
   styles:
     - brands
   unicode: f3b0
@@ -5625,6 +8515,28 @@ history:
     - regular
     - light
   unicode: f1da
+hockey-puck:
+  changes:
+    - 5.0.5
+  label: Hockey Puck
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f453
+hockey-sticks:
+  changes:
+    - 5.0.5
+  label: Hockey Sticks
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f454
 home:
   changes:
     - '1'
@@ -5632,13 +8544,24 @@ home:
   label: home
   search:
     terms:
-      - main
       - house
+      - main
   styles:
     - solid
     - regular
     - light
   unicode: f015
+home-heart:
+  changes:
+    - 5.0.9
+  label: Home Heart
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f4c9
 hooli:
   changes:
     - 5.0.0
@@ -5648,6 +8571,15 @@ hooli:
   styles:
     - brands
   unicode: f427
+hornbill:
+  changes:
+    - 5.1.0
+  label: Hornbill
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f592
 hospital:
   changes:
     - '3'
@@ -5656,20 +8588,68 @@ hospital:
   search:
     terms:
       - building
+      - emergency room
+      - medical center
   styles:
     - solid
     - regular
     - light
   unicode: f0f8
+hospital-alt:
+  changes:
+    - 5.0.7
+  label: Alternate Hospital
+  search:
+    terms:
+      - building
+      - emergency room
+      - medical center
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f47d
+hospital-symbol:
+  changes:
+    - 5.0.7
+  label: Hospital Symbol
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f47e
+hot-tub:
+  changes:
+    - 5.1.0
+  label: Hot Tub
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f593
+hotel:
+  changes:
+    - 5.1.0
+  label: Hotel
+  search:
+    terms:
+      - building
+      - lodging
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f594
 hotjar:
   changes:
     - 5.0.0
   label: Hotjar
   search:
     terms: []
-  sponsored:
-    label: Hotjar
-    url: 'https://www.hotjar.com'
   styles:
     - brands
   unicode: f3b1
@@ -5725,6 +8705,7 @@ houzz:
   changes:
     - '4.4'
     - 5.0.0
+    - 5.0.9
   label: Houzz
   search:
     terms: []
@@ -5747,9 +8728,6 @@ hubspot:
   label: HubSpot
   search:
     terms: []
-  sponsored:
-    label: HubSpot
-    url: 'http://www.HubSpot.com'
   styles:
     - brands
   unicode: f3b2
@@ -5769,6 +8747,7 @@ id-badge:
   changes:
     - '4.7'
     - 5.0.0
+    - 5.0.3
   label: Identification Badge
   search:
     terms: []
@@ -5781,14 +8760,30 @@ id-card:
   changes:
     - '4.7'
     - 5.0.0
+    - 5.0.3
   label: Identification Card
   search:
-    terms: []
+    terms:
+      - document
+      - identification
+      - issued
   styles:
     - solid
     - regular
     - light
   unicode: f2c2
+id-card-alt:
+  changes:
+    - 5.0.7
+  label: Alternate Identification Card
+  search:
+    terms:
+      - demographics
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f47f
 image:
   changes:
     - '1'
@@ -5796,8 +8791,8 @@ image:
   label: Image
   search:
     terms:
-      - photo
       - album
+      - photo
       - picture
       - picture
   styles:
@@ -5812,8 +8807,8 @@ images:
   label: Images
   search:
     terms:
-      - photo
       - album
+      - photo
       - picture
   styles:
     - solid
@@ -5884,6 +8879,7 @@ industry:
   search:
     terms:
       - factory
+      - manufacturing
   styles:
     - solid
     - regular
@@ -5894,12 +8890,25 @@ industry-alt:
     - 5.0.0
   label: Alternate Industry
   search:
-    terms: []
+    terms:
+      - factory
+      - manufacturing
   styles:
     - solid
     - regular
     - light
   unicode: f3b3
+infinity:
+  changes:
+    - 5.0.13
+  label: Infinity
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f534
 info:
   changes:
     - '3.1'
@@ -5907,10 +8916,10 @@ info:
   label: Info
   search:
     terms:
+      - details
       - help
       - information
       - more
-      - details
   styles:
     - solid
     - regular
@@ -5923,10 +8932,10 @@ info-circle:
   label: Info Circle
   search:
     terms:
+      - details
       - help
       - information
       - more
-      - details
   styles:
     - solid
     - regular
@@ -5938,10 +8947,10 @@ info-square:
   label: Info Square
   search:
     terms:
+      - details
       - help
       - information
       - more
-      - details
   styles:
     - solid
     - regular
@@ -5969,6 +8978,17 @@ internet-explorer:
   styles:
     - brands
   unicode: f26b
+inventory:
+  changes:
+    - 5.0.7
+  label: Inventory
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f480
 ioxhost:
   changes:
     - '4.2'
@@ -6021,6 +9041,24 @@ jack-o-lantern:
     - regular
     - light
   unicode: f30e
+java:
+  changes:
+    - 5.0.10
+  label: Java
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f4e4
+jedi-order:
+  changes:
+    - 5.0.12
+  label: Jedi Order
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f50e
 jenkins:
   changes:
     - 5.0.0
@@ -6036,12 +9074,29 @@ joget:
   label: Joget
   search:
     terms: []
-  sponsored:
-    label: Joget
-    url: 'http://www.joget.org'
   styles:
     - brands
   unicode: f3b7
+joint:
+  changes:
+    - 5.1.0
+  label: Joint
+  search:
+    terms:
+      - blunt
+      - cannabis
+      - doobie
+      - drugs
+      - marijuana
+      - roach
+      - smoke
+      - smoking
+      - spliff
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f595
 joomla:
   changes:
     - '4.1'
@@ -6064,6 +9119,7 @@ js:
 js-square:
   changes:
     - 5.0.0
+    - 5.0.3
   label: JavaScript (JS) Square
   search:
     terms: []
@@ -6087,13 +9143,22 @@ key:
   label: key
   search:
     terms:
-      - unlock
       - password
+      - unlock
   styles:
     - solid
     - regular
     - light
   unicode: f084
+keybase:
+  changes:
+    - 5.0.11
+  label: Keybase
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f4f5
 keyboard:
   changes:
     - '3.1'
@@ -6101,8 +9166,8 @@ keyboard:
   label: Keyboard
   search:
     terms:
-      - type
       - input
+      - type
   styles:
     - solid
     - regular
@@ -6114,9 +9179,6 @@ keycdn:
   label: KeyCDN
   search:
     terms: []
-  sponsored:
-    label: KeyCDN
-    url: 'https://www.keycdn.com'
   styles:
     - brands
   unicode: f3ba
@@ -6138,6 +9200,71 @@ kickstarter-k:
   styles:
     - brands
   unicode: f3bc
+kiss:
+  changes:
+    - 5.1.0
+  label: Kissing Face
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f596
+kiss-beam:
+  changes:
+    - 5.1.0
+  label: Kissing Face With Smiling Eyes
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f597
+kiss-wink-heart:
+  changes:
+    - 5.1.0
+  label: Face Blowing a Kiss
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f598
+kiwi-bird:
+  changes:
+    - 5.0.13
+  label: Kiwi Bird
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f535
+korvue:
+  changes:
+    - 5.0.2
+  label: KORVUE
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f42f
+lamp:
+  changes:
+    - 5.0.9
+    - 5.0.10
+  label: Lamp
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f4ca
 language:
   changes:
     - '4.1'
@@ -6157,9 +9284,17 @@ laptop:
   label: Laptop
   search:
     terms:
-      - demo
       - computer
+      - cpu
+      - dell
+      - demo
       - device
+      - dude you're getting
+      - mac
+      - macbook
+      - machine
+      - pc
+      - pc
   styles:
     - solid
     - regular
@@ -6168,6 +9303,7 @@ laptop:
 laravel:
   changes:
     - 5.0.0
+    - 5.0.3
   label: Laravel
   search:
     terms: []
@@ -6188,16 +9324,62 @@ lastfm-square:
   changes:
     - '4.2'
     - 5.0.0
+    - 5.0.11
   label: last.fm Square
   search:
     terms: []
   styles:
     - brands
   unicode: f203
+laugh:
+  changes:
+    - 5.1.0
+  label: Grinning Face With Big Eyes
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f599
+laugh-beam:
+  changes:
+    - 5.1.0
+  label: Laugh Face with Beaming Eyes
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f59a
+laugh-squint:
+  changes:
+    - 5.1.0
+  label: Laughing Squinting Face
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f59b
+laugh-wink:
+  changes:
+    - 5.1.0
+  label: Laughing Winking Face
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f59c
 leaf:
   changes:
     - '1'
     - 5.0.0
+    - 5.0.9
   label: leaf
   search:
     terms:
@@ -6209,6 +9391,17 @@ leaf:
     - regular
     - light
   unicode: f06c
+leaf-heart:
+  changes:
+    - 5.0.9
+  label: Leaf Heart
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f4cb
 leanpub:
   changes:
     - '4.3'
@@ -6241,6 +9434,28 @@ less:
   styles:
     - brands
   unicode: f41d
+less-than:
+  changes:
+    - 5.0.13
+  label: Less Than
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f536
+less-than-equal:
+  changes:
+    - 5.0.13
+  label: Less Than Equal To
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f537
 level-down:
   changes:
     - '3.1'
@@ -6257,7 +9472,7 @@ level-down:
 level-down-alt:
   changes:
     - 5.0.0
-  label: Level Down-alt
+  label: Alternate Level Down
   search:
     terms:
       - level-down
@@ -6282,7 +9497,7 @@ level-up:
 level-up-alt:
   changes:
     - 5.0.0
-  label: Level Up-alt
+  label: Alternate Level Up
   search:
     terms:
       - level-up
@@ -6391,8 +9606,8 @@ lira-sign:
   search:
     terms:
       - try
-      - turkish
       - try
+      - turkish
   styles:
     - solid
     - regular
@@ -6402,16 +9617,16 @@ list:
   changes:
     - '1'
     - 5.0.0
-  label: list
+  label: List
   search:
     terms:
-      - ul
-      - ol
       - checklist
-      - finished
       - completed
       - done
+      - finished
+      - ol
       - todo
+      - ul
   styles:
     - solid
     - regular
@@ -6421,16 +9636,16 @@ list-alt:
   changes:
     - '1'
     - 5.0.0
-  label: list-alt
+  label: Alternate List
   search:
     terms:
-      - ul
-      - ol
       - checklist
-      - finished
       - completed
       - done
+      - finished
+      - ol
       - todo
+      - ul
   styles:
     - solid
     - regular
@@ -6443,13 +9658,13 @@ list-ol:
   label: list-ol
   search:
     terms:
-      - ul
-      - ol
       - checklist
       - list
-      - todo
       - list
       - numbers
+      - ol
+      - todo
+      - ul
   styles:
     - solid
     - regular
@@ -6462,11 +9677,11 @@ list-ul:
   label: list-ul
   search:
     terms:
-      - ul
-      - ol
       - checklist
-      - todo
       - list
+      - ol
+      - todo
+      - ul
   styles:
     - solid
     - regular
@@ -6479,10 +9694,11 @@ location-arrow:
   label: location-arrow
   search:
     terms:
-      - map
-      - coordinates
-      - location
       - address
+      - coordinates
+      - gps
+      - location
+      - map
       - place
       - where
   styles:
@@ -6497,8 +9713,8 @@ lock:
   label: lock
   search:
     terms:
-      - protect
       - admin
+      - protect
       - security
   styles:
     - solid
@@ -6511,8 +9727,8 @@ lock-alt:
   label: Alternate Lock
   search:
     terms:
-      - protect
       - admin
+      - protect
       - security
   styles:
     - solid
@@ -6527,11 +9743,11 @@ lock-open:
   label: Lock Open
   search:
     terms:
-      - protect
       - admin
-      - password
       - lock
       - open
+      - password
+      - protect
   styles:
     - solid
     - regular
@@ -6541,13 +9757,13 @@ lock-open-alt:
   changes:
     - '3.1'
     - 5.0.0
-  label: Alernate Lock Open
+  label: Alternate Lock Open
   search:
     terms:
-      - protect
       - admin
-      - password
       - lock
+      - password
+      - protect
   styles:
     - solid
     - regular
@@ -6571,9 +9787,9 @@ long-arrow-alt-left:
   label: Alternate Long Arrow Left
   search:
     terms:
-      - previous
       - back
       - long-arrow-left
+      - previous
   styles:
     - solid
     - regular
@@ -6622,8 +9838,8 @@ long-arrow-left:
   label: Long Arrow Left
   search:
     terms:
-      - previous
       - back
+      - previous
   styles:
     - solid
     - regular
@@ -6653,6 +9869,17 @@ long-arrow-up:
     - regular
     - light
   unicode: f176
+loveseat:
+  changes:
+    - 5.0.9
+  label: Loveseat
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f4cc
 low-vision:
   changes:
     - '4.6'
@@ -6665,6 +9892,28 @@ low-vision:
     - regular
     - light
   unicode: f2a8
+luchador:
+  changes:
+    - 5.0.5
+  label: Luchador
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f455
+luggage-cart:
+  changes:
+    - 5.1.0
+  label: Luggage Cart
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f59d
 lyft:
   changes:
     - 5.0.0
@@ -6687,12 +9936,13 @@ magic:
   changes:
     - '2'
     - 5.0.0
+    - 5.1.0
   label: magic
   search:
     terms:
-      - wizard
-      - automatic
       - autocomplete
+      - automatic
+      - wizard
   styles:
     - solid
     - regular
@@ -6710,6 +9960,15 @@ magnet:
     - regular
     - light
   unicode: f076
+mailchimp:
+  changes:
+    - 5.1.0
+  label: Mailchimp
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f59e
 male:
   changes:
     - '3.2'
@@ -6717,27 +9976,95 @@ male:
   label: Male
   search:
     terms:
+      - human
       - man
-      - user
       - person
       - profile
+      - user
   styles:
     - solid
     - regular
     - light
   unicode: f183
+mandalorian:
+  changes:
+    - 5.0.12
+  label: Mandalorian
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f50f
 map:
   changes:
     - '4.4'
     - 5.0.0
+    - 5.1.0
   label: Map
   search:
-    terms: []
+    terms:
+      - coordinates
+      - location
+      - paper
+      - place
+      - travel
   styles:
     - solid
     - regular
     - light
   unicode: f279
+map-marked:
+  changes:
+    - 5.1.0
+  label: Map Marked
+  search:
+    terms:
+      - address
+      - coordinates
+      - destination
+      - gps
+      - localize
+      - location
+      - map
+      - paper
+      - pin
+      - place
+      - point of interest
+      - position
+      - route
+      - travel
+      - where
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f59f
+map-marked-alt:
+  changes:
+    - 5.1.0
+  label: Map Marked-alt
+  search:
+    terms:
+      - address
+      - coordinates
+      - destination
+      - gps
+      - localize
+      - location
+      - map
+      - paper
+      - pin
+      - place
+      - point of interest
+      - position
+      - route
+      - travel
+      - where
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f5a0
 map-marker:
   changes:
     - '1'
@@ -6745,15 +10072,17 @@ map-marker:
   label: map-marker
   search:
     terms:
+      - address
+      - coordinates
+      - gps
+      - localize
+      - location
       - map
       - pin
-      - location
-      - coordinates
-      - localize
-      - address
+      - place
+      - position
       - travel
       - where
-      - place
   styles:
     - solid
     - regular
@@ -6762,10 +10091,20 @@ map-marker:
 map-marker-alt:
   changes:
     - 5.0.0
-  label: Map Marker-alt
+  label: Alternate Map Marker
   search:
     terms:
-      - map-marker
+      - address
+      - coordinates
+      - gps
+      - localize
+      - location
+      - map
+      - pin
+      - place
+      - position
+      - travel
+      - where
   styles:
     - solid
     - regular
@@ -6777,7 +10116,18 @@ map-pin:
     - 5.0.0
   label: Map Pin
   search:
-    terms: []
+    terms:
+      - address
+      - coordinates
+      - gps
+      - localize
+      - location
+      - map
+      - marker
+      - place
+      - position
+      - travel
+      - where
   styles:
     - solid
     - regular
@@ -6795,6 +10145,21 @@ map-signs:
     - regular
     - light
   unicode: f277
+marker:
+  changes:
+    - 5.1.0
+  label: Marker
+  search:
+    terms:
+      - edit
+      - sharpie
+      - update
+      - write
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f5a1
 mars:
   changes:
     - '4.3'
@@ -6856,6 +10221,15 @@ mars-stroke-v:
     - regular
     - light
   unicode: f22a
+mastodon:
+  changes:
+    - 5.0.11
+  label: Mastodon
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f4f6
 maxcdn:
   changes:
     - '3.1'
@@ -6866,15 +10240,23 @@ maxcdn:
   styles:
     - brands
   unicode: f136
+medal:
+  changes:
+    - 5.1.0
+  label: Medal
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f5a2
 medapps:
   changes:
     - 5.0.0
   label: MedApps
   search:
     terms: []
-  sponsored:
-    label: MedApps
-    url: 'http://medapps.com.au'
   styles:
     - brands
   unicode: f3c6
@@ -6906,9 +10288,9 @@ medkit:
     terms:
       - first aid
       - firstaid
+      - health
       - help
       - support
-      - health
   styles:
     - solid
     - regular
@@ -6920,9 +10302,6 @@ medrt:
   label: MRT
   search:
     terms: []
-  sponsored:
-    label: MRT
-    url: 'https://medrt.co.jp/'
   styles:
     - brands
   unicode: f3c8
@@ -6936,22 +10315,68 @@ meetup:
   styles:
     - brands
   unicode: f2e0
+megaport:
+  changes:
+    - 5.1.0
+  label: Megaport
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f5a3
 meh:
   changes:
     - '3.1'
     - 5.0.0
-  label: Meh
+    - 5.0.9
+    - 5.1.0
+  label: Neutral Face
   search:
     terms:
-      - face
       - emoticon
-      - rating
+      - face
       - neutral
+      - rating
   styles:
     - solid
     - regular
     - light
   unicode: f11a
+meh-blank:
+  changes:
+    - 5.1.0
+  label: Face Without Mouth
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f5a4
+meh-rolling-eyes:
+  changes:
+    - 5.1.0
+  label: Face With Rolling Eyes
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f5a5
+memory:
+  changes:
+    - 5.0.13
+  label: Memory
+  search:
+    terms:
+      - DIMM
+      - RAM
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f538
 mercury:
   changes:
     - '4.3'
@@ -6971,7 +10396,9 @@ microchip:
     - 5.0.0
   label: Microchip
   search:
-    terms: []
+    terms:
+      - cpu
+      - processor
   styles:
     - solid
     - regular
@@ -6981,12 +10408,13 @@ microphone:
   changes:
     - '3.1'
     - 5.0.0
+    - 5.0.13
   label: microphone
   search:
     terms:
       - record
-      - voice
       - sound
+      - voice
   styles:
     - solid
     - regular
@@ -6995,25 +10423,47 @@ microphone:
 microphone-alt:
   changes:
     - 5.0.0
+    - 5.0.13
   label: Alternate Microphone
   search:
-    terms: []
+    terms:
+      - record
+      - sound
+      - voice
   styles:
     - solid
     - regular
     - light
   unicode: f3c9
+microphone-alt-slash:
+  changes:
+    - 5.0.13
+  label: Alternate Microphone Slash
+  search:
+    terms:
+      - disable
+      - mute
+      - record
+      - sound
+      - voice
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f539
 microphone-slash:
   changes:
     - '3.1'
     - 5.0.0
+    - 5.0.13
   label: Microphone Slash
   search:
     terms:
-      - record
-      - voice
-      - sound
+      - disable
       - mute
+      - record
+      - sound
+      - voice
   styles:
     - solid
     - regular
@@ -7035,13 +10485,13 @@ minus:
   label: minus
   search:
     terms:
+      - collapse
+      - delete
+      - hide
       - hide
       - minify
-      - delete
       - remove
       - trash
-      - hide
-      - collapse
   styles:
     - solid
     - regular
@@ -7055,9 +10505,9 @@ minus-circle:
   search:
     terms:
       - delete
+      - hide
       - remove
       - trash
-      - hide
   styles:
     - solid
     - regular
@@ -7070,9 +10520,9 @@ minus-hexagon:
   search:
     terms:
       - delete
+      - hide
       - remove
       - trash
-      - hide
   styles:
     - solid
     - regular
@@ -7085,9 +10535,9 @@ minus-octagon:
   search:
     terms:
       - delete
+      - hide
       - remove
       - trash
-      - hide
   styles:
     - solid
     - regular
@@ -7100,13 +10550,13 @@ minus-square:
   label: Minus Square
   search:
     terms:
+      - collapse
+      - delete
+      - hide
       - hide
       - minify
-      - delete
       - remove
       - trash
-      - hide
-      - collapse
   styles:
     - solid
     - regular
@@ -7115,12 +10565,10 @@ minus-square:
 mix:
   changes:
     - 5.0.0
+    - 5.0.3
   label: Mix
   search:
     terms: []
-  sponsored:
-    label: Mix
-    url: 'http://mix.com'
   styles:
     - brands
   unicode: f3cb
@@ -7140,9 +10588,6 @@ mizuni:
   label: Mizuni
   search:
     terms: []
-  sponsored:
-    label: Mizuni
-    url: 'http://www.mizuni.com'
   styles:
     - brands
   unicode: f3cc
@@ -7153,13 +10598,16 @@ mobile:
   label: Mobile Phone
   search:
     terms:
+      - apple
+      - call
       - cell phone
       - cellphone
-      - text
-      - call
+      - device
       - iphone
       - number
+      - screen
       - telephone
+      - text
   styles:
     - solid
     - regular
@@ -7171,7 +10619,16 @@ mobile-alt:
   label: Alternate Mobile
   search:
     terms:
-      - mobile
+      - apple
+      - call
+      - cell phone
+      - cellphone
+      - device
+      - iphone
+      - number
+      - screen
+      - telephone
+      - text
   styles:
     - solid
     - regular
@@ -7182,7 +10639,16 @@ mobile-android:
     - 5.0.0
   label: Mobile Android
   search:
-    terms: []
+    terms:
+      - android
+      - call
+      - cell phone
+      - cellphone
+      - device
+      - number
+      - screen
+      - telephone
+      - text
   styles:
     - solid
     - regular
@@ -7193,7 +10659,16 @@ mobile-android-alt:
     - 5.0.0
   label: Alternate Mobile Android
   search:
-    terms: []
+    terms:
+      - android
+      - call
+      - cell phone
+      - cellphone
+      - device
+      - number
+      - screen
+      - telephone
+      - text
   styles:
     - solid
     - regular
@@ -7222,15 +10697,17 @@ money-bill:
   changes:
     - '2'
     - 5.0.0
+    - 5.0.13
   label: Money Bill
   search:
     terms:
-      - cash
-      - money
       - buy
+      - cash
       - checkout
-      - purchase
+      - money
       - payment
+      - price
+      - purchase
   styles:
     - solid
     - regular
@@ -7239,15 +10716,84 @@ money-bill:
 money-bill-alt:
   changes:
     - 5.0.0
-  label: Money Bill-alt
+    - 5.0.13
+  label: Alternate Money Bill
   search:
     terms:
+      - buy
+      - cash
+      - checkout
       - money
+      - payment
+      - price
+      - purchase
   styles:
     - solid
     - regular
     - light
   unicode: f3d1
+money-bill-wave:
+  changes:
+    - 5.0.13
+  label: Wavy Money Bill
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f53a
+money-bill-wave-alt:
+  changes:
+    - 5.0.13
+  label: Alternate Wavy Money Bill
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f53b
+money-check:
+  changes:
+    - 5.0.13
+  label: Money Check
+  search:
+    terms:
+      - bank check
+      - cheque
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f53c
+money-check-alt:
+  changes:
+    - 5.0.13
+  label: Alternate Money Check
+  search:
+    terms:
+      - bank check
+      - cheque
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f53d
+monument:
+  changes:
+    - 5.1.0
+  label: Monument
+  search:
+    terms:
+      - building
+      - historic
+      - memoroable
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f5a6
 moon:
   changes:
     - '3.2'
@@ -7255,14 +10801,31 @@ moon:
   label: Moon
   search:
     terms:
-      - night
-      - darker
       - contrast
+      - darker
+      - night
   styles:
     - solid
     - regular
     - light
   unicode: f186
+mortar-pestle:
+  changes:
+    - 5.1.0
+  label: Mortar Pestle
+  search:
+    terms:
+      - crush
+      - culinary
+      - grind
+      - medical
+      - mix
+      - spices
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f5a7
 motorcycle:
   changes:
     - '4.3'
@@ -7270,8 +10833,10 @@ motorcycle:
   label: Motorcycle
   search:
     terms:
-      - vehicle
       - bike
+      - machine
+      - transportation
+      - vehicle
   styles:
     - solid
     - regular
@@ -7281,9 +10846,11 @@ mouse-pointer:
   changes:
     - '4.4'
     - 5.0.0
+    - 5.0.3
   label: Mouse Pointer
   search:
-    terms: []
+    terms:
+      - select
   styles:
     - solid
     - regular
@@ -7309,9 +10876,6 @@ napster:
   label: Napster
   search:
     terms: []
-  sponsored:
-    label: Napster
-    url: 'http://www.napster.com'
   styles:
     - brands
   unicode: f3d2
@@ -7334,12 +10898,22 @@ newspaper:
   label: Newspaper
   search:
     terms:
+      - article
       - press
   styles:
     - solid
     - regular
     - light
   unicode: f1ea
+nimblr:
+  changes:
+    - 5.1.0
+  label: Nimblr
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f5a8
 nintendo-switch:
   changes:
     - 5.0.0
@@ -7361,12 +10935,35 @@ node:
 node-js:
   changes:
     - 5.0.0
+    - 5.0.3
   label: Node.js JS
   search:
     terms: []
   styles:
     - brands
   unicode: f3d3
+not-equal:
+  changes:
+    - 5.0.13
+  label: Not Equal
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f53e
+notes-medical:
+  changes:
+    - 5.0.7
+  label: Medical Notes
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f481
 npm:
   changes:
     - 5.0.0
@@ -7391,9 +10988,6 @@ nutritionix:
   label: Nutritionix
   search:
     terms: []
-  sponsored:
-    label: Nutritionix
-    url: 'http://www.nutritionix.com'
   styles:
     - brands
   unicode: f3d6
@@ -7403,7 +10997,8 @@ object-group:
     - 5.0.0
   label: Object Group
   search:
-    terms: []
+    terms:
+      - design
   styles:
     - solid
     - regular
@@ -7415,7 +11010,8 @@ object-ungroup:
     - 5.0.0
   label: Object Ungroup
   search:
-    terms: []
+    terms:
+      - design
   styles:
     - solid
     - regular
@@ -7452,6 +11048,15 @@ odnoklassniki-square:
   styles:
     - brands
   unicode: f264
+old-republic:
+  changes:
+    - 5.0.12
+  label: Old Republic
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f510
 opencart:
   changes:
     - '4.4'
@@ -7519,9 +11124,6 @@ page4:
   label: page4 Corporation
   search:
     terms: []
-  sponsored:
-    label: page4 Corporation
-    url: 'https://en.page4.com/'
   styles:
     - brands
   unicode: f3d7
@@ -7532,12 +11134,12 @@ pagelines:
   label: Pagelines
   search:
     terms:
+      - eco
       - leaf
       - leaves
-      - tree
-      - plant
-      - eco
       - nature
+      - plant
+      - tree
   styles:
     - brands
   unicode: f18c
@@ -7545,6 +11147,7 @@ paint-brush:
   changes:
     - '4.2'
     - 5.0.0
+    - 5.1.0
   label: Paint Brush
   search:
     terms: []
@@ -7553,18 +11156,76 @@ paint-brush:
     - regular
     - light
   unicode: f1fc
+paint-brush-alt:
+  changes:
+    - 5.1.0
+  label: Alternate Paint Brush
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f5a9
+paint-roller:
+  changes:
+    - 5.1.0
+  label: Paint Roller
+  search:
+    terms:
+      - brush
+      - painting
+      - tool
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f5aa
+palette:
+  changes:
+    - 5.0.13
+  label: Palette
+  search:
+    terms:
+      - colors
+      - painting
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f53f
 palfed:
   changes:
     - 5.0.0
+    - 5.0.3
   label: Palfed
   search:
     terms: []
-  sponsored:
-    label: PalFed
-    url: 'https://www.palfed.com'
   styles:
     - brands
   unicode: f3d8
+pallet:
+  changes:
+    - 5.0.7
+  label: Pallet
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f482
+pallet-alt:
+  changes:
+    - 5.0.7
+  label: Alternate Pallet
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f483
 paper-plane:
   changes:
     - '4.1'
@@ -7590,6 +11251,21 @@ paperclip:
     - regular
     - light
   unicode: f0c6
+parachute-box:
+  changes:
+    - 5.0.9
+  label: Parachute Box
+  search:
+    terms:
+      - aid
+      - assistance
+      - rescue
+      - supplies
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f4cd
 paragraph:
   changes:
     - '4.1'
@@ -7602,6 +11278,31 @@ paragraph:
     - regular
     - light
   unicode: f1dd
+parking:
+  changes:
+    - 5.0.13
+  label: Parking
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f540
+passport:
+  changes:
+    - 5.1.0
+  label: Passport
+  search:
+    terms:
+      - document
+      - identification
+      - issued
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f5ab
 paste:
   changes:
     - '2'
@@ -7609,8 +11310,8 @@ paste:
   label: Paste
   search:
     terms:
-      - copy
       - clipboard
+      - copy
   styles:
     - solid
     - regular
@@ -7619,6 +11320,7 @@ paste:
 patreon:
   changes:
     - 5.0.0
+    - 5.0.3
   label: Patreon
   search:
     terms: []
@@ -7676,12 +11378,14 @@ paypal:
 pen:
   changes:
     - 5.0.0
+    - 5.1.0
   label: Pen
   search:
     terms:
-      - write
+      - design
       - edit
       - update
+      - write
   styles:
     - solid
     - regular
@@ -7690,17 +11394,51 @@ pen:
 pen-alt:
   changes:
     - 5.0.0
+    - 5.1.0
   label: Alternate Pen
   search:
     terms:
-      - write
+      - design
       - edit
       - update
+      - write
   styles:
     - solid
     - regular
     - light
   unicode: f305
+pen-fancy:
+  changes:
+    - 5.1.0
+  label: Pen Fancy
+  search:
+    terms:
+      - design
+      - edit
+      - fountain pen
+      - update
+      - write
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f5ac
+pen-nib:
+  changes:
+    - 5.1.0
+  label: Pen Nib
+  search:
+    terms:
+      - design
+      - edit
+      - fountain pen
+      - update
+      - write
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f5ad
 pen-square:
   changes:
     - '3.1'
@@ -7708,10 +11446,10 @@ pen-square:
   label: Pen Square
   search:
     terms:
-      - write
       - edit
-      - update
       - pencil-square
+      - update
+      - write
   styles:
     - solid
     - regular
@@ -7724,9 +11462,10 @@ pencil:
   label: pencil
   search:
     terms:
-      - write
+      - design
       - edit
       - update
+      - write
   styles:
     - solid
     - regular
@@ -7738,15 +11477,50 @@ pencil-alt:
   label: Alternate Pencil
   search:
     terms:
-      - write
+      - design
       - edit
-      - update
       - pencil
+      - update
+      - write
   styles:
     - solid
     - regular
     - light
   unicode: f303
+pencil-ruler:
+  changes:
+    - 5.1.0
+  label: Pencil Ruler
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f5ae
+pennant:
+  changes:
+    - 5.0.5
+  label: Pennant
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f456
+people-carry:
+  changes:
+    - 5.0.9
+  label: People Carry
+  search:
+    terms:
+      - movers
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f4ce
 percent:
   changes:
     - '4.5'
@@ -7759,6 +11533,17 @@ percent:
     - regular
     - light
   unicode: f295
+percentage:
+  changes:
+    - 5.0.13
+  label: Percentage
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f541
 periscope:
   changes:
     - 5.0.0
@@ -7768,27 +11553,70 @@ periscope:
   styles:
     - brands
   unicode: f3da
+person-carry:
+  changes:
+    - 5.0.9
+  label: Person Carry
+  search:
+    terms:
+      - mover
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f4cf
+person-dolly:
+  changes:
+    - 5.0.9
+  label: Person and Dolly
+  search:
+    terms:
+      - mover dolly
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f4d0
+person-dolly-empty:
+  changes:
+    - 5.0.9
+  label: Person and Empty Dolly
+  search:
+    terms:
+      - mover
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f4d1
 phabricator:
   changes:
     - 5.0.0
   label: Phabricator
   search:
     terms: []
-  sponsored:
-    label: Phabricator
-    url: 'http://phacility.com/'
   styles:
     - brands
   unicode: f3db
 phoenix-framework:
   changes:
     - 5.0.0
+    - 5.0.3
   label: Phoenix Framework
   search:
     terms: []
   styles:
     - brands
   unicode: f3dc
+phoenix-squadron:
+  changes:
+    - 5.0.12
+  label: Phoenix Squadron
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f511
 phone:
   changes:
     - '2'
@@ -7797,19 +11625,31 @@ phone:
   search:
     terms:
       - call
-      - voice
+      - earphone
       - number
       - support
-      - earphone
       - telephone
+      - voice
   styles:
     - solid
     - regular
     - light
   unicode: f095
+phone-plus:
+  changes:
+    - 5.0.9
+  label: Phone Plus
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f4d2
 phone-slash:
   changes:
     - 5.0.0
+    - 5.0.9
   label: Phone Slash
   search:
     terms: []
@@ -7826,10 +11666,10 @@ phone-square:
   search:
     terms:
       - call
-      - voice
       - number
       - support
       - telephone
+      - voice
   styles:
     - solid
     - regular
@@ -7839,6 +11679,7 @@ phone-volume:
   changes:
     - '4.6'
     - 5.0.0
+    - 5.0.3
   label: Phone Volume
   search:
     terms:
@@ -7849,10 +11690,20 @@ phone-volume:
     - regular
     - light
   unicode: f2a0
+php:
+  changes:
+    - 5.0.5
+  label: PHP
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f457
 pied-piper:
   changes:
     - '4.6'
     - 5.0.0
+    - 5.0.10
   label: Pied Piper Logo
   search:
     terms: []
@@ -7869,6 +11720,16 @@ pied-piper-alt:
   styles:
     - brands
   unicode: f1a8
+pied-piper-hat:
+  changes:
+    - 5.0.10
+  label: Pied Piper-hat
+  search:
+    terms:
+      - clothing
+  styles:
+    - brands
+  unicode: f4e5
 pied-piper-pp:
   changes:
     - '4.1'
@@ -7879,6 +11740,32 @@ pied-piper-pp:
   styles:
     - brands
   unicode: f1a7
+piggy-bank:
+  changes:
+    - 5.0.9
+  label: Piggy Bank
+  search:
+    terms:
+      - save
+      - savings
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f4d3
+pills:
+  changes:
+    - 5.0.7
+  label: Pills
+  search:
+    terms:
+      - drugs
+      - medicine
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f484
 pinterest:
   changes:
     - '2'
@@ -7913,16 +11800,17 @@ plane:
   changes:
     - '1'
     - 5.0.0
+    - 5.0.13
   label: plane
   search:
     terms:
+      - airplane
+      - destination
+      - fly
+      - location
+      - mode
       - travel
       - trip
-      - location
-      - destination
-      - airplane
-      - fly
-      - mode
   styles:
     - solid
     - regular
@@ -7931,7 +11819,7 @@ plane:
 plane-alt:
   changes:
     - 5.0.0
-  label: Alernate Plane
+  label: Alternate Plane
   search:
     terms: []
   styles:
@@ -7939,6 +11827,48 @@ plane-alt:
     - regular
     - light
   unicode: f3de
+plane-arrival:
+  changes:
+    - 5.1.0
+  label: Plane Arrival
+  search:
+    terms:
+      - airplane
+      - arriving
+      - destination
+      - fly
+      - land
+      - landing
+      - location
+      - mode
+      - travel
+      - trip
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f5af
+plane-departure:
+  changes:
+    - 5.1.0
+  label: Plane Departure
+  search:
+    terms:
+      - airplane
+      - departing
+      - destination
+      - fly
+      - location
+      - mode
+      - take off
+      - taking off
+      - travel
+      - trip
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f5b0
 play:
   changes:
     - '1'
@@ -7946,10 +11876,10 @@ play:
   label: play
   search:
     terms:
-      - start
-      - playing
       - music
+      - playing
       - sound
+      - start
   styles:
     - solid
     - regular
@@ -7962,8 +11892,8 @@ play-circle:
   label: Play Circle
   search:
     terms:
-      - start
       - playing
+      - start
   styles:
     - solid
     - regular
@@ -7985,8 +11915,9 @@ plug:
   label: Plug
   search:
     terms:
-      - power
       - connect
+      - online
+      - power
   styles:
     - solid
     - regular
@@ -7996,13 +11927,14 @@ plus:
   changes:
     - '1'
     - 5.0.0
+    - 5.0.13
   label: plus
   search:
     terms:
       - add
-      - new
       - create
       - expand
+      - new
   styles:
     - solid
     - regular
@@ -8016,9 +11948,9 @@ plus-circle:
   search:
     terms:
       - add
-      - new
       - create
       - expand
+      - new
   styles:
     - solid
     - regular
@@ -8031,9 +11963,9 @@ plus-hexagon:
   search:
     terms:
       - add
-      - new
       - create
       - expand
+      - new
   styles:
     - solid
     - regular
@@ -8046,9 +11978,9 @@ plus-octagon:
   search:
     terms:
       - add
-      - new
       - create
       - expand
+      - new
   styles:
     - solid
     - regular
@@ -8062,9 +11994,9 @@ plus-square:
   search:
     terms:
       - add
-      - new
       - create
       - expand
+      - new
   styles:
     - solid
     - regular
@@ -8085,6 +12017,7 @@ podcast:
 poo:
   changes:
     - 5.0.0
+    - 5.0.9
   label: Poo
   search:
     terms: []
@@ -8096,6 +12029,7 @@ poo:
 portrait:
   changes:
     - 5.0.0
+    - 5.0.3
   label: Portrait
   search:
     terms: []
@@ -8126,11 +12060,58 @@ power-off:
   search:
     terms:
       - 'on'
+      - reboot
+      - restart
   styles:
     - solid
     - regular
     - light
   unicode: f011
+prescription:
+  changes:
+    - 5.1.0
+  label: Prescription
+  search:
+    terms:
+      - drugs
+      - medical
+      - medicine
+      - rx
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f5b1
+prescription-bottle:
+  changes:
+    - 5.0.7
+  label: Prescription Bottle
+  search:
+    terms:
+      - drugs
+      - medical
+      - medicine
+      - rx
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f485
+prescription-bottle-alt:
+  changes:
+    - 5.0.7
+  label: Alternate Prescription Bottle
+  search:
+    terms:
+      - drugs
+      - medical
+      - medicine
+      - rx
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f486
 print:
   changes:
     - '1'
@@ -8143,6 +12124,17 @@ print:
     - regular
     - light
   unicode: f02f
+procedures:
+  changes:
+    - 5.0.7
+  label: Procedures
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f487
 product-hunt:
   changes:
     - '4.5'
@@ -8153,15 +12145,23 @@ product-hunt:
   styles:
     - brands
   unicode: f288
+project-diagram:
+  changes:
+    - 5.0.13
+  label: Project Diagram
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f542
 pushed:
   changes:
     - 5.0.0
   label: Pushed
   search:
     terms: []
-  sponsored:
-    label: Pushed
-    url: 'https://pushed.co'
   styles:
     - brands
   unicode: f3e1
@@ -8172,8 +12172,8 @@ puzzle-piece:
   label: Puzzle Piece
   search:
     terms:
-      - addon
       - add-on
+      - addon
       - section
   styles:
     - solid
@@ -8221,8 +12221,8 @@ question:
     terms:
       - help
       - information
-      - unknown
       - support
+      - unknown
   styles:
     - solid
     - regular
@@ -8237,8 +12237,8 @@ question-circle:
     terms:
       - help
       - information
-      - unknown
       - support
+      - unknown
   styles:
     - solid
     - regular
@@ -8252,13 +12252,33 @@ question-square:
     terms:
       - help
       - information
-      - unknown
       - support
+      - unknown
   styles:
     - solid
     - regular
     - light
   unicode: f2fd
+quidditch:
+  changes:
+    - 5.0.5
+  label: Quidditch
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f458
+quinscape:
+  changes:
+    - 5.0.5
+  label: QuinScape
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f459
 quora:
   changes:
     - '4.7'
@@ -8273,6 +12293,7 @@ quote-left:
   changes:
     - '3'
     - 5.0.0
+    - 5.0.9
   label: quote-left
   search:
     terms: []
@@ -8285,6 +12306,7 @@ quote-right:
   changes:
     - '3'
     - 5.0.0
+    - 5.0.9
   label: quote-right
   search:
     terms: []
@@ -8293,6 +12315,38 @@ quote-right:
     - regular
     - light
   unicode: f10e
+r-project:
+  changes:
+    - 5.0.11
+    - 5.0.12
+  label: R Project
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f4f7
+racquet:
+  changes:
+    - 5.0.5
+  label: Racquet
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f45a
+ramp-loading:
+  changes:
+    - 5.0.9
+  label: Ramp Loading
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f4d4
 random:
   changes:
     - '1'
@@ -8300,8 +12354,8 @@ random:
   label: random
   search:
     terms:
-      - sort
       - shuffle
+      - sort
   styles:
     - solid
     - regular
@@ -8326,6 +12380,16 @@ react:
   styles:
     - brands
   unicode: f41b
+readme:
+  changes:
+    - 5.0.9
+    - 5.0.10
+  label: ReadMe
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f4d5
 rebel:
   changes:
     - '4.1'
@@ -8336,6 +12400,20 @@ rebel:
   styles:
     - brands
   unicode: f1d0
+receipt:
+  changes:
+    - 5.0.13
+  label: Receipt
+  search:
+    terms:
+      - check
+      - invoice
+      - table
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f543
 rectangle-landscape:
   changes:
     - 5.0.0
@@ -8387,9 +12465,6 @@ red-river:
   label: red river
   search:
     terms: []
-  sponsored:
-    label: red river
-    url: 'https://river.red'
   styles:
     - brands
   unicode: f3e3
@@ -8469,9 +12544,6 @@ rendact:
   label: Rendact
   search:
     terms: []
-  sponsored:
-    label: Rendact
-    url: 'https://rendact.com'
   styles:
     - brands
   unicode: f3e4
@@ -8559,20 +12631,24 @@ replyd:
   label: replyd
   search:
     terms: []
-  sponsored:
-    label: replyd
   styles:
     - brands
   unicode: f3e6
+researchgate:
+  changes:
+    - 5.0.11
+  label: Researchgate
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f4f8
 resolving:
   changes:
     - 5.0.0
   label: Resolving
   search:
     terms: []
-  sponsored:
-    label: Resolving
-    url: 'https://resolving.com'
   styles:
     - brands
   unicode: f3e7
@@ -8586,6 +12662,7 @@ retweet:
       - refresh
       - reload
       - share
+      - swap
   styles:
     - solid
     - regular
@@ -8600,11 +12677,36 @@ retweet-alt:
       - refresh
       - reload
       - share
+      - swap
   styles:
     - solid
     - regular
     - light
   unicode: f361
+rev:
+  changes:
+    - 5.1.0
+  label: Rev.io
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f5b2
+ribbon:
+  changes:
+    - 5.0.9
+  label: Ribbon
+  search:
+    terms:
+      - badge
+      - cause
+      - lapel
+      - pin
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f4d6
 road:
   changes:
     - '1'
@@ -8618,6 +12720,17 @@ road:
     - regular
     - light
   unicode: f018
+robot:
+  changes:
+    - 5.0.13
+  label: Robot
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f544
 rocket:
   changes:
     - '3.1'
@@ -8637,9 +12750,6 @@ rocketchat:
   label: Rocket.Chat
   search:
     terms: []
-  sponsored:
-    label: Rocket.Chat
-    url: 'https://rocket.chat'
   styles:
     - brands
   unicode: f3e8
@@ -8649,12 +12759,20 @@ rockrms:
   label: Rockrms
   search:
     terms: []
-  sponsored:
-    label: Rock RMS
-    url: 'http://rockrms.com'
   styles:
     - brands
   unicode: f3e9
+route:
+  changes:
+    - 5.0.9
+  label: Route
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f4d7
 rss:
   changes:
     - '2'
@@ -8675,8 +12793,8 @@ rss-square:
   label: RSS Square
   search:
     terms:
-      - feed
       - blog
+      - feed
   styles:
     - solid
     - regular
@@ -8696,6 +12814,50 @@ ruble-sign:
     - regular
     - light
   unicode: f158
+ruler:
+  changes:
+    - 5.0.13
+  label: Ruler
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f545
+ruler-combined:
+  changes:
+    - 5.0.13
+  label: Ruler Combined
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f546
+ruler-horizontal:
+  changes:
+    - 5.0.13
+  label: Ruler Horizontal
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f547
+ruler-vertical:
+  changes:
+    - 5.0.13
+  label: Ruler Vertical
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f548
 rupee-sign:
   changes:
     - '3.2'
@@ -8710,6 +12872,28 @@ rupee-sign:
     - regular
     - light
   unicode: f156
+sad-cry:
+  changes:
+    - 5.1.0
+  label: Crying Face
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f5b3
+sad-tear:
+  changes:
+    - 5.1.0
+  label: Loudly Crying Face
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f5b4
 safari:
   changes:
     - '4.4'
@@ -8744,18 +12928,76 @@ save:
     - regular
     - light
   unicode: f0c7
+scanner:
+  changes:
+    - 5.0.7
+  label: Scanner
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f488
+scanner-keyboard:
+  changes:
+    - 5.0.7
+  label: Scanner Keyboard
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f489
+scanner-touchscreen:
+  changes:
+    - 5.0.7
+  label: Scanner Touchscreen
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f48a
 schlix:
   changes:
     - 5.0.0
   label: SCHLIX
   search:
     terms: []
-  sponsored:
-    label: SCHLIX
-    url: 'http://schlix.com'
   styles:
     - brands
   unicode: f3ea
+school:
+  changes:
+    - 5.0.13
+  label: School
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f549
+screwdriver:
+  changes:
+    - 5.0.13
+  label: Screwdriver
+  search:
+    terms:
+      - admin
+      - container
+      - fix
+      - repair
+      - settings
+      - tool
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f54a
 scribd:
   changes:
     - '4.5'
@@ -8784,10 +13026,11 @@ search:
   label: Search
   search:
     terms:
-      - magnify
-      - zoom
-      - enlarge
       - bigger
+      - enlarge
+      - magnify
+      - preview
+      - zoom
   styles:
     - solid
     - regular
@@ -8797,13 +13040,15 @@ search-minus:
   changes:
     - '1'
     - 5.0.0
+    - 5.0.13
   label: Search Minus
   search:
     terms:
       - magnify
       - minify
-      - zoom
       - smaller
+      - zoom
+      - zoom out
   styles:
     - solid
     - regular
@@ -8816,10 +13061,11 @@ search-plus:
   label: Search Plus
   search:
     terms:
+      - bigger
+      - enlarge
       - magnify
       - zoom
-      - enlarge
-      - bigger
+      - zoom in
   styles:
     - solid
     - regular
@@ -8831,12 +13077,20 @@ searchengin:
   label: Searchengin
   search:
     terms: []
-  sponsored:
-    label: SearchEng.in
-    url: 'http://searcheng.in'
   styles:
     - brands
   unicode: f3eb
+seedling:
+  changes:
+    - 5.0.9
+  label: Seedling
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f4d8
 sellcast:
   changes:
     - 5.0.0
@@ -8863,7 +13117,8 @@ server:
     - 5.0.0
   label: Server
   search:
-    terms: []
+    terms:
+      - cpu
   styles:
     - solid
     - regular
@@ -8875,9 +13130,6 @@ servicestack:
   label: Servicestack
   search:
     terms: []
-  sponsored:
-    label: ServiceStack
-    url: 'https://servicestack.net'
   styles:
     - brands
   unicode: f3ec
@@ -8935,8 +13187,8 @@ share-square:
   label: Share Square
   search:
     terms:
-      - social
       - send
+      - social
   styles:
     - solid
     - regular
@@ -8963,8 +13215,8 @@ shield:
   label: shield
   search:
     terms:
-      - award
       - achievement
+      - award
       - security
       - winner
   styles:
@@ -8990,9 +13242,10 @@ shield-check:
   label: shield
   search:
     terms:
-      - award
       - achievement
+      - award
       - security
+      - success
       - winner
   styles:
     - solid
@@ -9013,6 +13266,28 @@ ship:
     - regular
     - light
   unicode: f21a
+shipping-fast:
+  changes:
+    - 5.0.7
+  label: Shipping Fast
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f48b
+shipping-timed:
+  changes:
+    - 5.0.7
+  label: Shipping Timed
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f48c
 shirtsinbulk:
   changes:
     - '4.3'
@@ -9023,6 +13298,20 @@ shirtsinbulk:
   styles:
     - brands
   unicode: f214
+shoe-prints:
+  changes:
+    - 5.0.13
+  label: Shoe Prints
+  search:
+    terms:
+      - feet
+      - footprints
+      - steps
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f54b
 shopping-bag:
   changes:
     - '4.5'
@@ -9054,15 +13343,24 @@ shopping-cart:
   label: shopping-cart
   search:
     terms:
-      - checkout
       - buy
-      - purchase
+      - checkout
       - payment
+      - purchase
   styles:
     - solid
     - regular
     - light
   unicode: f07a
+shopware:
+  changes:
+    - 5.1.0
+  label: Shopware
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f5b5
 shower:
   changes:
     - '4.7'
@@ -9075,6 +13373,43 @@ shower:
     - regular
     - light
   unicode: f2cc
+shuttle-van:
+  changes:
+    - 5.1.0
+  label: Shuttle Van
+  search:
+    terms:
+      - machine
+      - public-transportation
+      - transportation
+      - vehicle
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f5b6
+shuttlecock:
+  changes:
+    - 5.0.5
+  label: Shuttlecock
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f45b
+sign:
+  changes:
+    - 5.0.9
+  label: Sign
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f4d9
 sign-in:
   changes:
     - '1'
@@ -9082,15 +13417,15 @@ sign-in:
   label: Sign In
   search:
     terms:
+      - arrow
       - enter
       - join
       - log in
       - login
-      - sign up
       - sign in
+      - sign up
       - signin
       - signup
-      - arrow
   styles:
     - solid
     - regular
@@ -9099,19 +13434,19 @@ sign-in:
 sign-in-alt:
   changes:
     - 5.0.0
-  label: Alernate Sign In
+  label: Alternate Sign In
   search:
     terms:
+      - arrow
       - enter
       - join
       - log in
       - login
-      - sign up
       - sign in
+      - sign up
+      - sign-in
       - signin
       - signup
-      - arrow
-      - sign-in
   styles:
     - solid
     - regular
@@ -9136,11 +13471,11 @@ sign-out:
   label: Sign Out
   search:
     terms:
+      - arrow
+      - exit
+      - leave
       - log out
       - logout
-      - leave
-      - exit
-      - arrow
   styles:
     - solid
     - regular
@@ -9149,14 +13484,14 @@ sign-out:
 sign-out-alt:
   changes:
     - 5.0.0
-  label: Alernate Sign Out
+  label: Alternate Sign Out
   search:
     terms:
+      - arrow
+      - exit
+      - leave
       - log out
       - logout
-      - leave
-      - exit
-      - arrow
       - sign-out
   styles:
     - solid
@@ -9170,13 +13505,30 @@ signal:
   label: signal
   search:
     terms:
-      - graph
       - bars
+      - graph
+      - online
+      - status
   styles:
     - solid
     - regular
     - light
   unicode: f012
+signature:
+  changes:
+    - 5.1.0
+  label: Signature
+  search:
+    terms:
+      - John Hancock
+      - cursive
+      - name
+      - writing
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f5b7
 simplybuilt:
   changes:
     - '4.3'
@@ -9193,9 +13545,6 @@ sistrix:
   label: SISTRIX
   search:
     terms: []
-  sponsored:
-    label: SISTRIX
-    url: 'https://www.sistrix.de/'
   styles:
     - brands
   unicode: f3ee
@@ -9203,21 +13552,48 @@ sitemap:
   changes:
     - '2'
     - 5.0.0
+    - 5.0.13
   label: Sitemap
   search:
     terms:
       - directory
       - hierarchy
+      - ia
+      - information architecture
       - organization
   styles:
     - solid
     - regular
     - light
   unicode: f0e8
+sith:
+  changes:
+    - 5.0.12
+  label: Sith
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f512
+skull:
+  changes:
+    - 5.0.13
+  label: Skull
+  search:
+    terms:
+      - bones
+      - skeleton
+      - yorick
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f54c
 skyatlas:
   changes:
     - '4.3'
     - 5.0.0
+    - 5.0.3
   label: skyatlas
   search:
     terms: []
@@ -9241,9 +13617,9 @@ slack:
   label: Slack Logo
   search:
     terms:
-      - hashtag
       - anchor
       - hash
+      - hashtag
   styles:
     - brands
   unicode: f198
@@ -9253,9 +13629,9 @@ slack-hash:
   label: Slack Hashtag
   search:
     terms:
-      - hashtag
       - anchor
       - hash
+      - hashtag
   styles:
     - brands
   unicode: f3ef
@@ -9263,6 +13639,7 @@ sliders-h:
   changes:
     - '4.1'
     - 5.0.0
+    - 5.0.11
   label: Horizontal Sliders
   search:
     terms:
@@ -9287,6 +13664,7 @@ sliders-h-square:
 sliders-v:
   changes:
     - 5.0.0
+    - 5.0.11
   label: Vertical Sliders
   search:
     terms: []
@@ -9320,20 +13698,82 @@ smile:
   changes:
     - '3.1'
     - 5.0.0
-  label: Smile
+    - 5.0.9
+    - 5.1.0
+  label: Smiling Face
   search:
     terms:
-      - face
-      - emoticon
-      - happy
       - approve
-      - satisfied
+      - emoticon
+      - face
+      - happy
       - rating
+      - satisfied
   styles:
     - solid
     - regular
     - light
   unicode: f118
+smile-beam:
+  changes:
+    - 5.1.0
+  label: Beaming Face With Smiling Eyes
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f5b8
+smile-plus:
+  changes:
+    - 5.0.9
+    - 5.1.0
+  label: Smiling Face Plus
+  search: 'terms []'
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f5b9
+smile-wink:
+  changes:
+    - 5.1.0
+  label: Winking Face
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f4da
+smoking:
+  changes:
+    - 5.0.7
+  label: Smoking
+  search:
+    terms:
+      - cigarette
+      - nicotine
+      - smoking status
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f48d
+smoking-ban:
+  changes:
+    - 5.0.13
+  label: Smoking Ban
+  search:
+    terms:
+      - no smoking
+      - non-smoking
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f54d
 snapchat:
   changes:
     - '4.6'
@@ -9376,6 +13816,22 @@ snowflake:
     - regular
     - light
   unicode: f2dc
+solar-panel:
+  changes:
+    - 5.1.0
+  label: Solar Panel
+  search:
+    terms:
+      - clean
+      - eco-friendly
+      - energy
+      - green
+      - sun
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f5ba
 sort:
   changes:
     - '2'
@@ -9509,13 +13965,32 @@ soundcloud:
   styles:
     - brands
   unicode: f1be
+spa:
+  changes:
+    - 5.1.0
+  label: Spa
+  search:
+    terms:
+      - mindfullness
+      - plant
+      - wellness
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f5bb
 space-shuttle:
   changes:
     - '4.1'
     - 5.0.0
   label: Space Shuttle
   search:
-    terms: []
+    terms:
+      - astronaut
+      - machine
+      - nasa
+      - rocket
+      - transportation
   styles:
     - solid
     - regular
@@ -9538,9 +14013,6 @@ speakap:
   label: Speakap
   search:
     terms: []
-  sponsored:
-    label: Speakap
-    url: 'https://speakap.com'
   styles:
     - brands
   unicode: f3f3
@@ -9569,6 +14041,17 @@ spinner-third:
     - regular
     - light
   unicode: f3f4
+splotch:
+  changes:
+    - 5.1.0
+  label: Splotch
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f5bc
 spotify:
   changes:
     - '4.1'
@@ -9579,6 +14062,17 @@ spotify:
   styles:
     - brands
   unicode: f1bc
+spray-can:
+  changes:
+    - 5.1.0
+  label: Spray Can
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f5bd
 square:
   changes:
     - '2'
@@ -9593,10 +14087,31 @@ square:
     - regular
     - light
   unicode: f0c8
+square-full:
+  changes:
+    - 5.0.5
+  label: Square Full
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f45c
+squarespace:
+  changes:
+    - 5.1.0
+  label: Squarespace
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f5be
 stack-exchange:
   changes:
     - '4'
     - 5.0.0
+    - 5.0.3
   label: Stack Exchange
   search:
     terms: []
@@ -9613,6 +14128,17 @@ stack-overflow:
   styles:
     - brands
   unicode: f16c
+stamp:
+  changes:
+    - 5.1.0
+  label: Stamp
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f5bf
 star:
   changes:
     - '1'
@@ -9620,12 +14146,13 @@ star:
   label: Star
   search:
     terms:
-      - award
       - achievement
+      - award
+      - favorite
+      - important
       - night
       - rating
       - score
-      - favorite
   styles:
     - solid
     - regular
@@ -9637,12 +14164,12 @@ star-exclamation:
   label: Exclamation Star
   search:
     terms:
-      - award
       - achievement
+      - award
+      - favorite
       - night
       - rating
       - score
-      - favorite
   styles:
     - solid
     - regular
@@ -9655,8 +14182,8 @@ star-half:
   label: star-half
   search:
     terms:
-      - award
       - achievement
+      - award
       - rating
       - score
       - star-half-empty
@@ -9666,15 +14193,29 @@ star-half:
     - regular
     - light
   unicode: f089
+star-half-alt:
+  changes:
+    - 5.1.0
+  label: Alternate Star Half
+  search:
+    terms:
+      - achievement
+      - award
+      - rating
+      - score
+      - star-half-empty
+      - star-half-full
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f5c0
 staylinked:
   changes:
     - 5.0.0
   label: StayLinked
   search:
     terms: []
-  sponsored:
-    label: StayLinked
-    url: 'http://www.staylinked.com'
   styles:
     - brands
   unicode: f3f5
@@ -9714,11 +14255,11 @@ step-backward:
   label: step-backward
   search:
     terms:
-      - rewind
-      - previous
       - beginning
-      - start
       - first
+      - previous
+      - rewind
+      - start
   styles:
     - solid
     - regular
@@ -9731,9 +14272,9 @@ step-forward:
   label: step-forward
   search:
     terms:
-      - next
       - end
       - last
+      - next
   styles:
     - solid
     - regular
@@ -9743,6 +14284,7 @@ stethoscope:
   changes:
     - '3'
     - 5.0.0
+    - 5.0.7
   label: Stethoscope
   search:
     terms: []
@@ -9757,9 +14299,6 @@ sticker-mule:
   label: Sticker Mule
   search:
     terms: []
-  sponsored:
-    label: Sticker Mule
-    url: 'https://stickermule.com'
   styles:
     - brands
   unicode: f3f7
@@ -9814,6 +14353,28 @@ stopwatch:
     - regular
     - light
   unicode: f2f2
+store:
+  changes:
+    - 5.0.13
+  label: Store
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f54e
+store-alt:
+  changes:
+    - 5.0.13
+  label: Alternate Store
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f54f
 strava:
   changes:
     - 5.0.0
@@ -9824,6 +14385,17 @@ strava:
   styles:
     - brands
   unicode: f428
+stream:
+  changes:
+    - 5.0.13
+  label: Stream
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f550
 street-view:
   changes:
     - '4.3'
@@ -9852,6 +14424,7 @@ strikethrough:
 stripe:
   changes:
     - 5.0.0
+    - 5.0.3
   label: Stripe
   search:
     terms: []
@@ -9867,15 +14440,27 @@ stripe-s:
   styles:
     - brands
   unicode: f42a
+stroopwafel:
+  changes:
+    - 5.0.13
+  label: Stroopwafel
+  search:
+    terms:
+      - dessert
+      - food
+      - sweets
+      - waffle
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f551
 studiovinari:
   changes:
     - 5.0.0
   label: Studio Vinari
   search:
     terms: []
-  sponsored:
-    label: Studio Vinari
-    url: 'https://studiovinari.com'
   styles:
     - brands
   unicode: f3f8
@@ -9917,7 +14502,12 @@ subway:
     - 5.0.0
   label: Subway
   search:
-    terms: []
+    terms:
+      - machine
+      - railway
+      - train
+      - transportation
+      - vehicle
   styles:
     - solid
     - regular
@@ -9927,19 +14517,32 @@ suitcase:
   changes:
     - '3'
     - 5.0.0
+    - 5.0.9
   label: Suitcase
   search:
     terms:
-      - trip
-      - luggage
-      - travel
-      - move
       - baggage
+      - luggage
+      - move
+      - suitcase
+      - travel
+      - trip
   styles:
     - solid
     - regular
     - light
   unicode: f0f2
+suitcase-rolling:
+  changes:
+    - 5.1.0
+  label: Suitcase Rolling
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f5c1
 sun:
   changes:
     - '3.2'
@@ -9947,11 +14550,11 @@ sun:
   label: Sun
   search:
     terms:
-      - weather
-      - contrast
-      - lighter
       - brighten
+      - contrast
       - day
+      - lighter
+      - weather
   styles:
     - solid
     - regular
@@ -9989,6 +14592,58 @@ supple:
   styles:
     - brands
   unicode: f3f9
+surprise:
+  changes:
+    - 5.1.0
+  label: Hushed Face
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f5c2
+swatchbook:
+  changes:
+    - 5.1.0
+  label: Swatchbook
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f5c3
+swimmer:
+  changes:
+    - 5.1.0
+  label: Swimmer
+  search:
+    terms:
+      - athlete
+      - head
+      - man
+      - person
+      - water
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f5c4
+swimming-pool:
+  changes:
+    - 5.1.0
+  label: Swimming Pool
+  search:
+    terms:
+      - ladder
+      - recreation
+      - water
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f5c5
 sync:
   changes:
     - '1'
@@ -9996,9 +14651,11 @@ sync:
   label: Sync
   search:
     terms:
+      - exchange
+      - refresh
       - reload
-      - refresh
-      - refresh
+      - rotate
+      - swap
   styles:
     - solid
     - regular
@@ -10010,13 +14667,27 @@ sync-alt:
   label: Alternate Sync
   search:
     terms:
-      - reload
       - refresh
+      - reload
+      - rotate
   styles:
     - solid
     - regular
     - light
   unicode: f2f1
+syringe:
+  changes:
+    - 5.0.7
+  label: Syringe
+  search:
+    terms:
+      - immunizations
+      - needle
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f48e
 table:
   changes:
     - '2'
@@ -10032,6 +14703,17 @@ table:
     - regular
     - light
   unicode: f0ce
+table-tennis:
+  changes:
+    - 5.0.5
+  label: Table Tennis
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f45d
 tablet:
   changes:
     - '3'
@@ -10039,8 +14721,11 @@ tablet:
   label: tablet
   search:
     terms:
-      - ipad
+      - apple
       - device
+      - ipad
+      - kindle
+      - screen
   styles:
     - solid
     - regular
@@ -10052,7 +14737,11 @@ tablet-alt:
   label: Alternate Tablet
   search:
     terms:
-      - tablet
+      - apple
+      - device
+      - ipad
+      - kindle
+      - screen
   styles:
     - solid
     - regular
@@ -10063,7 +14752,9 @@ tablet-android:
     - 5.0.0
   label: Tablet Android
   search:
-    terms: []
+    terms:
+      - device
+      - screen
   styles:
     - solid
     - regular
@@ -10074,12 +14765,42 @@ tablet-android-alt:
     - 5.0.0
   label: Alternate Tablet Android
   search:
-    terms: []
+    terms:
+      - device
+      - screen
   styles:
     - solid
     - regular
     - light
   unicode: f3fc
+tablet-rugged:
+  changes:
+    - 5.0.7
+  label: Rugged Tablet
+  search:
+    terms:
+      - device
+      - durable
+      - screen
+      - tough
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f48f
+tablets:
+  changes:
+    - 5.0.7
+  label: Tablets
+  search:
+    terms:
+      - drugs
+      - medicine
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f490
 tachometer:
   changes:
     - '2'
@@ -10087,8 +14808,9 @@ tachometer:
   label: Tachometer
   search:
     terms:
-      - speedometer
+      - dashboard
       - fast
+      - speedometer
   styles:
     - solid
     - regular
@@ -10100,6 +14822,7 @@ tachometer-alt:
   label: Alternate Tachometer
   search:
     terms:
+      - dashboard
       - tachometer
   styles:
     - solid
@@ -10132,6 +14855,17 @@ tags:
     - regular
     - light
   unicode: f02c
+tape:
+  changes:
+    - 5.0.9
+  label: Tape
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f4db
 tasks:
   changes:
     - '2'
@@ -10139,10 +14873,10 @@ tasks:
   label: Tasks
   search:
     terms:
-      - progress
-      - loading
       - downloading
       - downloads
+      - loading
+      - progress
       - settings
   styles:
     - solid
@@ -10153,15 +14887,34 @@ taxi:
   changes:
     - '4.1'
     - 5.0.0
+    - 5.1.0
   label: Taxi
   search:
     terms:
+      - cab
+      - cabbie
+      - car
+      - car service
+      - lyft
+      - machine
+      - transportation
+      - uber
       - vehicle
   styles:
     - solid
     - regular
     - light
   unicode: f1ba
+teamspeak:
+  changes:
+    - 5.0.11
+    - 5.1.0
+  label: TeamSpeak
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f4f9
 telegram:
   changes:
     - '4.7'
@@ -10191,6 +14944,17 @@ tencent-weibo:
   styles:
     - brands
   unicode: f1d5
+tennis-ball:
+  changes:
+    - 5.0.5
+  label: Tennis Ball
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f45e
 terminal:
   changes:
     - '3.1'
@@ -10198,9 +14962,10 @@ terminal:
   label: Terminal
   search:
     terms:
-      - command
-      - prompt
       - code
+      - command
+      - console
+      - prompt
   styles:
     - solid
     - regular
@@ -10238,9 +15003,9 @@ th:
   search:
     terms:
       - blocks
-      - squares
       - boxes
       - grid
+      - squares
   styles:
     - solid
     - regular
@@ -10254,9 +15019,9 @@ th-large:
   search:
     terms:
       - blocks
-      - squares
       - boxes
       - grid
+      - squares
   styles:
     - solid
     - regular
@@ -10269,18 +15034,27 @@ th-list:
   label: th-list
   search:
     terms:
-      - ul
-      - ol
       - checklist
-      - finished
       - completed
       - done
+      - finished
+      - ol
       - todo
+      - ul
   styles:
     - solid
     - regular
     - light
   unicode: f00b
+themeco:
+  changes:
+    - 5.1.0
+  label: Themeco
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f5c6
 themeisle:
   changes:
     - '4.6'
@@ -10291,13 +15065,27 @@ themeisle:
   styles:
     - brands
   unicode: f2b2
+thermometer:
+  changes:
+    - 5.0.7
+  label: Thermometer
+  search:
+    terms:
+      - fever
+      - temperature
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f491
 thermometer-empty:
   changes:
     - '4.7'
     - 5.0.0
   label: Thermometer Empty
   search:
-    terms: []
+    terms:
+      - status
   styles:
     - solid
     - regular
@@ -10309,7 +15097,8 @@ thermometer-full:
     - 5.0.0
   label: Thermometer Full
   search:
-    terms: []
+    terms:
+      - status
   styles:
     - solid
     - regular
@@ -10321,7 +15110,8 @@ thermometer-half:
     - 5.0.0
   label: Thermometer 1/2 Full
   search:
-    terms: []
+    terms:
+      - status
   styles:
     - solid
     - regular
@@ -10333,7 +15123,8 @@ thermometer-quarter:
     - 5.0.0
   label: Thermometer 1/4 Full
   search:
-    terms: []
+    terms:
+      - status
   styles:
     - solid
     - regular
@@ -10345,7 +15136,8 @@ thermometer-three-quarters:
     - 5.0.0
   label: Thermometer 3/4 Full
   search:
-    terms: []
+    terms:
+      - status
   styles:
     - solid
     - regular
@@ -10358,9 +15150,9 @@ thumbs-down:
   label: thumbs-down
   search:
     terms:
-      - dislike
-      - disapprove
       - disagree
+      - disapprove
+      - dislike
       - hand
       - thumbs-o-down
   styles:
@@ -10375,12 +15167,17 @@ thumbs-up:
   label: thumbs-up
   search:
     terms:
-      - like
-      - favorite
-      - approve
       - agree
+      - approve
+      - favorite
       - hand
+      - like
+      - ok
+      - okay
+      - success
       - thumbs-o-up
+      - 'yes'
+      - you got it dude
   styles:
     - solid
     - regular
@@ -10393,10 +15190,10 @@ thumbtack:
   label: Thumbtack
   search:
     terms:
+      - coordinates
+      - location
       - marker
       - pin
-      - location
-      - coordinates
       - thumb-tack
   styles:
     - solid
@@ -10421,7 +15218,7 @@ ticket:
 ticket-alt:
   changes:
     - 5.0.0
-  label: Alernate Ticket
+  label: Alternate Ticket
   search:
     terms:
       - ticket
@@ -10434,13 +15231,21 @@ times:
   changes:
     - '1'
     - 5.0.0
+    - 5.0.13
   label: Times
   search:
     terms:
       - close
-      - exit
-      - x
       - cross
+      - error
+      - exit
+      - incorrect
+      - notice
+      - notification
+      - notify
+      - problem
+      - wrong
+      - x
   styles:
     - solid
     - regular
@@ -10454,7 +15259,14 @@ times-circle:
   search:
     terms:
       - close
+      - cross
       - exit
+      - incorrect
+      - notice
+      - notification
+      - notify
+      - problem
+      - wrong
       - x
   styles:
     - solid
@@ -10468,7 +15280,14 @@ times-hexagon:
   search:
     terms:
       - close
+      - cross
       - exit
+      - incorrect
+      - notice
+      - notification
+      - notify
+      - problem
+      - wrong
       - x
   styles:
     - solid
@@ -10482,7 +15301,14 @@ times-octagon:
   search:
     terms:
       - close
+      - cross
       - exit
+      - incorrect
+      - notice
+      - notification
+      - notify
+      - problem
+      - wrong
       - x
   styles:
     - solid
@@ -10496,8 +15322,15 @@ times-square:
   label: Times Square
   search:
     terms:
-      - window
       - close
+      - cross
+      - incorrect
+      - notice
+      - notification
+      - notify
+      - problem
+      - window
+      - wrong
   styles:
     - solid
     - regular
@@ -10507,25 +15340,49 @@ tint:
   changes:
     - '1'
     - 5.0.0
+    - 5.1.0
   label: tint
   search:
     terms:
-      - raindrop
-      - waterdrop
       - drop
       - droplet
+      - raindrop
+      - waterdrop
   styles:
     - solid
     - regular
     - light
   unicode: f043
+tint-slash:
+  changes:
+    - 5.1.0
+  label: Tint Slash
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f5c7
+tired:
+  changes:
+    - 5.1.0
+  label: Tired Face
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f5c8
 toggle-off:
   changes:
     - '4.2'
     - 5.0.0
   label: Toggle Off
   search:
-    terms: []
+    terms:
+      - switch
   styles:
     - solid
     - regular
@@ -10537,12 +15394,50 @@ toggle-on:
     - 5.0.0
   label: Toggle On
   search:
-    terms: []
+    terms:
+      - switch
   styles:
     - solid
     - regular
     - light
   unicode: f205
+toolbox:
+  changes:
+    - 5.0.13
+  label: Toolbox
+  search:
+    terms:
+      - admin
+      - container
+      - fix
+      - repair
+      - settings
+      - tools
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f552
+tooth:
+  changes:
+    - 5.1.0
+  label: Tooth
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f5c9
+trade-federation:
+  changes:
+    - 5.0.12
+  label: Trade Federation
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f513
 trademark:
   changes:
     - '4.4'
@@ -10561,7 +15456,10 @@ train:
     - 5.0.0
   label: Train
   search:
-    terms: []
+    terms:
+      - bullet
+      - locomotive
+      - railway
   styles:
     - solid
     - regular
@@ -10599,10 +15497,10 @@ trash:
   label: Trash
   search:
     terms:
-      - garbage
       - delete
-      - remove
+      - garbage
       - hide
+      - remove
   styles:
     - solid
     - regular
@@ -10614,10 +15512,10 @@ trash-alt:
   label: Alternate Trash
   search:
     terms:
-      - garbage
       - delete
-      - remove
+      - garbage
       - hide
+      - remove
       - trash
       - trash-o
   styles:
@@ -10640,7 +15538,7 @@ tree:
 tree-alt:
   changes:
     - 5.0.0
-  label: Tree Alt
+  label: Alternate Tree
   search:
     terms: []
   styles:
@@ -10686,11 +15584,11 @@ trophy:
   label: trophy
   search:
     terms:
-      - award
       - achievement
+      - award
       - cup
-      - winner
       - game
+      - winner
   styles:
     - solid
     - regular
@@ -10702,12 +15600,12 @@ trophy-alt:
   label: Alternate Trophy
   search:
     terms:
-      - award
       - achievement
+      - award
       - cup
-      - winner
       - game
       - star
+      - winner
   styles:
     - solid
     - regular
@@ -10717,15 +15615,85 @@ truck:
   changes:
     - '2'
     - 5.0.0
+    - 5.0.7
   label: truck
   search:
     terms:
+      - delivery
       - shipping
   styles:
     - solid
     - regular
     - light
   unicode: f0d1
+truck-container:
+  changes:
+    - 5.0.9
+  label: Truck Container
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f4dc
+truck-couch:
+  changes:
+    - 5.0.9
+  label: Truck Couch
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f4dd
+truck-loading:
+  changes:
+    - 5.0.9
+  label: Truck Loading
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f4de
+truck-moving:
+  changes:
+    - 5.0.9
+  label: Truck Moving
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f4df
+truck-ramp:
+  changes:
+    - 5.0.9
+  label: Truck Ramp
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f4e0
+tshirt:
+  changes:
+    - 5.0.13
+  label: T-Shirt
+  search:
+    terms:
+      - cloth
+      - clothing
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f553
 tty:
   changes:
     - '4.2'
@@ -10765,8 +15733,8 @@ tv:
   label: Television
   search:
     terms:
-      - display
       - computer
+      - display
       - monitor
       - television
   styles:
@@ -10802,8 +15770,8 @@ twitter:
   label: Twitter
   search:
     terms:
-      - tweet
       - social network
+      - tweet
   styles:
     - brands
   unicode: f099
@@ -10814,8 +15782,8 @@ twitter-square:
   label: Twitter Square
   search:
     terms:
-      - tweet
       - social network
+      - tweet
   styles:
     - brands
   unicode: f081
@@ -10852,12 +15820,28 @@ umbrella:
     - 5.0.0
   label: Umbrella
   search:
-    terms: []
+    terms:
+      - protection
+      - rain
   styles:
     - solid
     - regular
     - light
   unicode: f0e9
+umbrella-beach:
+  changes:
+    - 5.1.0
+  label: Umbrella Beach
+  search:
+    terms:
+      - protection
+      - recreation
+      - sun
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f5ca
 underline:
   changes:
     - '2'
@@ -10878,6 +15862,12 @@ undo:
   search:
     terms:
       - back
+      - control z
+      - exchange
+      - oops
+      - return
+      - rotate
+      - swap
   styles:
     - solid
     - regular
@@ -10890,6 +15880,11 @@ undo-alt:
   search:
     terms:
       - back
+      - control z
+      - exchange
+      - oops
+      - return
+      - swap
   styles:
     - solid
     - regular
@@ -10920,9 +15915,12 @@ university:
   changes:
     - '4.1'
     - 5.0.0
+    - 5.0.3
   label: University
   search:
-    terms: []
+    terms:
+      - bank
+      - institution
   styles:
     - solid
     - regular
@@ -10935,9 +15933,9 @@ unlink:
   label: unlink
   search:
     terms:
-      - remove
       - chain
       - chain-broken
+      - remove
   styles:
     - solid
     - regular
@@ -10950,10 +15948,10 @@ unlock:
   label: unlock
   search:
     terms:
-      - protect
       - admin
-      - password
       - lock
+      - password
+      - protect
   styles:
     - solid
     - regular
@@ -10966,10 +15964,10 @@ unlock-alt:
   label: Alternate Unlock
   search:
     terms:
-      - protect
       - admin
-      - password
       - lock
+      - password
+      - protect
   styles:
     - solid
     - regular
@@ -10991,7 +15989,8 @@ upload:
   label: Upload
   search:
     terms:
-      - import
+      - export
+      - publish
   styles:
     - solid
     - regular
@@ -11010,9 +16009,15 @@ usb:
 usd-circle:
   changes:
     - 5.0.0
+    - 5.0.9
   label: US Dollar Circle
   search:
-    terms: []
+    terms:
+      - $
+      - dollar-sign
+      - money
+      - price
+      - usd
   styles:
     - solid
     - regular
@@ -11021,9 +16026,15 @@ usd-circle:
 usd-square:
   changes:
     - 5.0.0
+    - 5.0.9
   label: US Dollar Square
   search:
-    terms: []
+    terms:
+      - $
+      - dollar-sign
+      - money
+      - price
+      - usd
   styles:
     - solid
     - regular
@@ -11033,12 +16044,16 @@ user:
   changes:
     - '1'
     - 5.0.0
+    - 5.0.3
+    - 5.0.11
   label: User
   search:
     terms:
-      - person
-      - man
+      - account
+      - avatar
       - head
+      - man
+      - person
       - profile
   styles:
     - solid
@@ -11048,46 +16063,205 @@ user:
 user-alt:
   changes:
     - 5.0.0
-  label: Alernate User
+    - 5.0.3
+    - 5.0.11
+  label: Alternate User
   search:
-    terms: []
+    terms:
+      - account
+      - avatar
+      - head
+      - man
+      - person
+      - profile
   styles:
     - solid
     - regular
     - light
   unicode: f406
-user-circle:
+user-alt-slash:
   changes:
-    - '4.7'
-    - 5.0.0
-  label: User Circle
+    - 5.0.11
+  label: Alternate User Slash
   search:
     terms: []
   styles:
     - solid
     - regular
     - light
+  unicode: f4fa
+user-astronaut:
+  changes:
+    - 5.0.11
+  label: User Astronaut
+  search:
+    terms:
+      - avatar
+      - clothing
+      - cosmonaut
+      - space
+      - suit
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f4fb
+user-check:
+  changes:
+    - 5.0.11
+  label: User Check
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f4fc
+user-circle:
+  changes:
+    - '4.7'
+    - 5.0.0
+    - 5.0.3
+    - 5.0.11
+  label: User Circle
+  search:
+    terms:
+      - account
+      - avatar
+      - head
+      - man
+      - person
+      - profile
+  styles:
+    - solid
+    - regular
+    - light
   unicode: f2bd
+user-clock:
+  changes:
+    - 5.0.11
+  label: User Clock
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f4fd
+user-cog:
+  changes:
+    - 5.0.11
+  label: User Cog
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f4fe
+user-edit:
+  changes:
+    - 5.0.11
+  label: User Edit
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f4ff
+user-friends:
+  changes:
+    - 5.0.11
+  label: User Friends
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f500
+user-graduate:
+  changes:
+    - 5.0.11
+  label: User Graduate
+  search:
+    terms:
+      - cap
+      - clothing
+      - commencement
+      - gown
+      - graduation
+      - student
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f501
+user-lock:
+  changes:
+    - 5.0.11
+  label: User Lock
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f502
 user-md:
   changes:
     - '2'
     - 5.0.0
+    - 5.0.3
+    - 5.0.7
+    - 5.0.11
   label: user-md
   search:
     terms:
       - doctor
-      - profile
+      - job
       - medical
       - nurse
+      - occupation
+      - profile
   styles:
     - solid
     - regular
     - light
   unicode: f0f0
+user-minus:
+  changes:
+    - 5.0.11
+  label: User Minus
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f503
+user-ninja:
+  changes:
+    - 5.0.11
+  label: User Ninja
+  search:
+    terms:
+      - assassin
+      - avatar
+      - dangerous
+      - sneaky
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f504
 user-plus:
   changes:
     - '4.3'
     - 5.0.0
+    - 5.0.3
+    - 5.0.11
   label: Add User
   search:
     terms:
@@ -11102,22 +16276,77 @@ user-secret:
   changes:
     - '4.3'
     - 5.0.0
+    - 5.0.3
+    - 5.0.11
   label: User Secret
   search:
     terms:
-      - whisper
-      - spy
+      - clothing
+      - coat
+      - hat
       - incognito
       - privacy
+      - spy
+      - whisper
   styles:
     - solid
     - regular
     - light
   unicode: f21b
+user-shield:
+  changes:
+    - 5.0.11
+  label: User Shield
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f505
+user-slash:
+  changes:
+    - 5.0.11
+  label: User Slash
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f506
+user-tag:
+  changes:
+    - 5.0.11
+  label: User Tag
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f507
+user-tie:
+  changes:
+    - 5.0.11
+  label: User Tie
+  search:
+    terms:
+      - avatar
+      - business
+      - clothing
+      - formal
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f508
 user-times:
   changes:
     - '4.3'
     - 5.0.0
+    - 5.0.3
+    - 5.0.11
   label: Remove User
   search:
     terms: []
@@ -11130,26 +16359,36 @@ users:
   changes:
     - '2'
     - 5.0.0
+    - 5.0.3
+    - 5.0.11
   label: Users
   search:
     terms:
       - people
-      - profiles
       - persons
+      - profiles
   styles:
     - solid
     - regular
     - light
   unicode: f0c0
+users-cog:
+  changes:
+    - 5.0.11
+  label: Users Cog
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f509
 ussunnah:
   changes:
     - 5.0.0
   label: us-Sunnah Foundation
   search:
     terms: []
-  sponsored:
-    label: us-Sunnah Foundation
-    url: 'https://www.ussunnah.org'
   styles:
     - brands
   unicode: f407
@@ -11193,13 +16432,13 @@ utensils:
   label: Utensils
   search:
     terms:
-      - food
-      - restaurant
-      - spoon
-      - knife
+      - cutlery
       - dinner
       - eat
-      - cutlery
+      - food
+      - knife
+      - restaurant
+      - spoon
   styles:
     - solid
     - regular
@@ -11222,12 +16461,20 @@ vaadin:
   label: Vaadin
   search:
     terms: []
-  sponsored:
-    label: Vaadin
-    url: 'http://vaadin.com'
   styles:
     - brands
   unicode: f408
+vector-square:
+  changes:
+    - 5.1.0
+  label: Vector Square
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f5cb
 venus:
   changes:
     - '4.3'
@@ -11295,9 +16542,35 @@ viadeo-square:
   styles:
     - brands
   unicode: f2aa
+vial:
+  changes:
+    - 5.0.7
+  label: Vial
+  search:
+    terms:
+      - test tube
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f492
+vials:
+  changes:
+    - 5.0.7
+  label: Vials
+  search:
+    terms:
+      - lab results
+      - test tubes
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f493
 viber:
   changes:
     - 5.0.0
+    - 5.0.3
   label: Viber
   search:
     terms: []
@@ -11308,19 +16581,42 @@ video:
   changes:
     - '1'
     - 5.0.0
+    - 5.0.9
   label: Video
   search:
     terms:
+      - camera
       - film
       - movie
       - record
-      - camera
       - video-camera
   styles:
     - solid
     - regular
     - light
   unicode: f03d
+video-plus:
+  changes:
+    - 5.0.9
+  label: Video Plus
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f4e1
+video-slash:
+  changes:
+    - 5.0.9
+  label: Video Slash
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f4e2
 vimeo:
   changes:
     - 5.0.0
@@ -11377,12 +16673,20 @@ vnv:
   label: VNV
   search:
     terms: []
-  sponsored:
-    label: VNV
-    url: 'https://www.vnv.ch'
   styles:
     - brands
   unicode: f40b
+volleyball-ball:
+  changes:
+    - 5.0.5
+  label: Volleyball Ball
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f45f
 volume-down:
   changes:
     - '1'
@@ -11392,9 +16696,10 @@ volume-down:
     terms:
       - audio
       - lower
+      - music
       - quieter
       - sound
-      - music
+      - speaker
   styles:
     - solid
     - regular
@@ -11407,9 +16712,9 @@ volume-mute:
   search:
     terms:
       - audio
+      - music
       - mute
       - sound
-      - music
   styles:
     - solid
     - regular
@@ -11423,9 +16728,9 @@ volume-off:
   search:
     terms:
       - audio
+      - music
       - mute
       - sound
-      - music
   styles:
     - solid
     - regular
@@ -11441,8 +16746,9 @@ volume-up:
       - audio
       - higher
       - louder
-      - sound
       - music
+      - sound
+      - speaker
   styles:
     - solid
     - regular
@@ -11457,6 +16763,50 @@ vuejs:
   styles:
     - brands
   unicode: f41f
+walking:
+  changes:
+    - 5.0.13
+  label: Walking
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f554
+wallet:
+  changes:
+    - 5.0.13
+  label: Wallet
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f555
+warehouse:
+  changes:
+    - 5.0.7
+  label: Warehouse
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f494
+warehouse-alt:
+  changes:
+    - 5.0.7
+  label: Alternate Warehouse
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f495
 watch:
   changes:
     - 5.0.0
@@ -11468,6 +16818,15 @@ watch:
     - regular
     - light
   unicode: f2e1
+weebly:
+  changes:
+    - 5.1.0
+  label: Weebly
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f5cc
 weibo:
   changes:
     - '3.2'
@@ -11478,10 +16837,39 @@ weibo:
   styles:
     - brands
   unicode: f18a
+weight:
+  changes:
+    - 5.0.7
+  label: Weight
+  search:
+    terms:
+      - measurement
+      - scale
+      - weight
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f496
+weight-hanging:
+  changes:
+    - 5.1.0
+  label: Hanging Weight
+  search:
+    terms:
+      - anvil
+      - heavy
+      - measurement
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f5cd
 weixin:
   changes:
     - '4.1'
     - 5.0.0
+    - 5.0.3
   label: Weixin (WeChat)
   search:
     terms: []
@@ -11521,15 +16909,24 @@ wheelchair:
     - regular
     - light
   unicode: f193
+whistle:
+  changes:
+    - 5.0.5
+    - 5.0.7
+  label: Whistle
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f460
 whmcs:
   changes:
     - 5.0.0
   label: WHMCS
   search:
     terms: []
-  sponsored:
-    label: WHMCS
-    url: 'https://www.whmcs.com'
   styles:
     - brands
   unicode: f40d
@@ -11636,6 +17033,47 @@ windows:
   styles:
     - brands
   unicode: f17a
+wine-glass:
+  changes:
+    - 5.0.9
+    - 5.1.0
+  label: Wine Glass
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f4e3
+wine-glass-alt:
+  changes:
+    - 5.1.0
+  label: Wine Glass-alt
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f5ce
+wix:
+  changes:
+    - 5.1.0
+  label: Wix
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f5cf
+wolf-pack-battalion:
+  changes:
+    - 5.0.12
+  label: Wolf Pack-battalion
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f514
 won-sign:
   changes:
     - '3.2'
@@ -11703,18 +17141,33 @@ wrench:
   changes:
     - '2'
     - 5.0.0
+    - 5.0.13
   label: Wrench
   search:
     terms:
-      - settings
       - fix
-      - update
+      - settings
       - spanner
+      - tool
+      - update
   styles:
     - solid
     - regular
     - light
   unicode: f0ad
+x-ray:
+  changes:
+    - 5.0.7
+  label: X-Ray
+  search:
+    terms:
+      - radiological images
+      - radiology
+  styles:
+    - solid
+    - regular
+    - light
+  unicode: f497
 xbox:
   changes:
     - 5.0.0
@@ -11758,6 +17211,7 @@ yahoo:
   changes:
     - '4.1'
     - 5.0.0
+    - 5.0.3
   label: Yahoo Logo
   search:
     terms: []
@@ -11810,6 +17264,7 @@ yoast:
   changes:
     - '4.6'
     - 5.0.0
+    - 5.0.3
   label: Yoast
   search:
     terms: []
@@ -11823,10 +17278,19 @@ youtube:
   label: YouTube
   search:
     terms:
-      - video
       - film
+      - video
       - youtube-play
       - youtube-square
   styles:
     - brands
   unicode: f167
+youtube-square:
+  changes:
+    - 5.0.3
+  label: YouTube Square
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f431
