@@ -1,0 +1,5 @@
+# Schema for the theme setting configuration file of the THEMETITLE theme.
+
+unlvce.settings:
+  type: theme_settings
+  label: 'UNLV CE 2018 settings'
